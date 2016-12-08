@@ -1,0 +1,22 @@
+.item-comments {
+  flex: 2;
+}
+
+.item-comments__comment {
+  display: flex;
+}
+
+.item-comments__load-more {
+  margin-bottom: 10px;
+  color: rgb(199, 199, 199);
+  font-weight: 700;
+}
+
+.item-comments__comment__text {
+  padding: 10px 0px 0px 10px;
+}
+
+.item-comments__comment__text__author {
+  color: black;
+  font-weight: bold;
+}

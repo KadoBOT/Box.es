@@ -1,0 +1,65 @@
+.item-info {
+  flex: 1.3;
+  overflow: hidden;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 20px;
+}
+
+.item-info__author {
+  display: flex;
+  max-height: 125px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.item-info__author__description {
+  padding: 0px 0px 0px 10px;
+}
+
+.item-info__author__description__details {
+  min-height: 50px;
+  line-height: 20px;
+  padding-top: 5px;
+}
+
+.item-info__author__description__details__name {
+  color: rgb(29, 162, 180);
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.item-info__author__description__details__read-more {
+  position: absolute;
+  bottom: -1px;;
+  background: white;
+  right: 0;
+}
+
+.item-info__author__description__details__read-more > a {
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(59, 59, 59);
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.item-info__author__description__details__nickname {
+  font-weight: 600;
+  text-transform: lowercase;
+  margin-bottom: 5px;
+}
+
+.item-info__subtitle {
+  display: flex;
+  margin: 5px 0px;
+}
+
+.item-info__subtitle > div:first-child {
+  flex: 1;
+}
+
+.item-info__subtitle > div > i {
+  font-size: 14px;
+  margin-right: 5px;
+}

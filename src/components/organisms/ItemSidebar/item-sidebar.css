@@ -1,0 +1,9 @@
+.item-sidebar {
+  flex: 1.15;
+  background: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 25px;
+}

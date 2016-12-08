@@ -1,0 +1,8 @@
+.avatar {
+  height: 60px;
+  width: 60px;
+  min-width: 60px;
+  background-size: cover !important;
+  border-radius: 5px;
+  background-position: center !important;
+}
