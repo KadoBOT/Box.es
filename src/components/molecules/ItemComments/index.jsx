@@ -4,7 +4,6 @@ import { Avatar, Description } from '../../atoms/'
 import './item-comments.css'
 
 const Comments = ({item}) => {
-  console.log('item', item)
   return(
     <div className="item-comments">
       <p className="item-comments__load-more">load more comments</p>

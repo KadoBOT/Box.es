@@ -3,14 +3,12 @@ import React, {PropTypes} from 'react'
 import { Miniature } from '../../atoms/'
 import './item-miniatures.css'
 
-const ItemMiniatures = (props) => {
+const ItemMiniatures = ({item}) => {
   return(
     <div className="item-miniatures">
-      <Miniature />
-      <Miniature />
-      <Miniature />
-      <Miniature />
-      <Miniature />
+      {item.item_photos.map(p =>
+        <Miniature photo={p} />
+      )}
     </div>
   )
 }

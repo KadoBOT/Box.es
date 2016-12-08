@@ -2,11 +2,11 @@ import React, {PropTypes} from 'react'
 
 import './miniature.css'
 
-const Miniature = () => {
+const Miniature = ({photo}) => {
   return(
-    <div className="miniature">
-
-    </div>
+    <a href="#">
+      <div className="miniature" style={{background: `url(${photo.large})`}} />
+    </a>
   )
 }
 

@@ -4,7 +4,6 @@ import { ItemSlider, ItemMiniatures } from '../../molecules/'
 import './item-view.css'
 
 const ItemView = (props) => {
-
   return(
     <div className="item-view">
       <ItemSlider {...props} />

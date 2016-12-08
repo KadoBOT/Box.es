@@ -3,7 +3,7 @@ export default {
   "name": "Diamond Select Marvel Select: Juggernaut Action Figure",
   "description": "A Diamond Select Release! Sculpted by Gentle Giant! The ranks of the best-selling Marvel Select line expand to include one of the most deadly mutants ever, the unstoppable Juggernaut. Sculpted by Gentle Giant and standing a massive 7\" tall, Juggernaut is the latest in the, in scale, over sized figures from the Marvel Select line. Charles Xavier's half brother is ready to join Magneto in the fight against the X-Men and anyone else that stands in their way. Featuring Marvel Selects standard 16 points of articulation, Juggernaut, and the sans-helmet chase variant figure, are the textbook definition of Unstoppable!",
   "price": 22.43,
-  "location_details": "Apaham. A tiny village. ",
+  "location_details": "Genosha",
   "currency": {
     "symbol": "$",
   },

@@ -21,8 +21,8 @@ class MainPage extends React.Component {
         <div className="main-page">
           <div className="main-page__template">DEMO VERSION</div>
           <div className="main-page__content">
-            <ItemView />
-            <ItemSidebar />
+            <ItemView {...this.props} />
+            <ItemSidebar {...this.props} />
           </div>
         </div>
     )
