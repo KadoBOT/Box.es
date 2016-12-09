@@ -1,0 +1,9 @@
+exports[`test should render the Avatar 1`] = `
+<div
+  className="avatar"
+  style={
+    Object {
+      "background": "url(colossus.jpg)",
+    }
+  } />
+`;

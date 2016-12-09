@@ -1,25 +1,29 @@
 import React, {PropTypes} from 'react'
-import R from 'ramda'
 
+import { isMainPicture } from '../../../helpers/_picture'
 import { PriceLabel, SliderArrows } from '../../atoms/'
 import './item-slider.css'
 
+class ItemSlider extends React.Component {
+  componentWillMount() {
+    this.props.selectPicture(isMainPicture(this.props.item.item_photos))
+  }
 
-//TODO: Remove logic from here. Add this to helper function
-const isMain = x => x.is_main === true
-
-const ItemSlider = (props) => {
-  const {item} = props
-  return(
-    <div className="item-slider" style={{background: `url(${R.filter(isMain, item.item_photos)[0].large})`}}>
-      <SliderArrows />
-      <PriceLabel />
-    </div>
-  )
+  render() {
+    const {item, selectedPicture} = this.props
+    return(
+      <div className="item-slider" style={{background: `url(${selectedPicture})`}}>
+        {/* <SliderArrows /> */}
+        <PriceLabel price={item.price} />
+      </div>
+    )
+  }
 }
 
-// ItemSlider.propTypes = {
-//   props: PropTypes.type
-// }
+ItemSlider.propTypes = {
+  item: PropTypes.object.isRequired,
+  selectPicture: PropTypes.func.isRequired,
+  selectedPicture: PropTypes.string.isRequired,
+}
 
 export default ItemSlider

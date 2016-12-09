@@ -1,19 +1,14 @@
-import React, {PropTypes} from 'react'
+import React from 'react'
 
-import { ItemSlider, ItemMiniatures } from '../../molecules/'
+import ItemSlider from '../../../container/ItemSlider/'
+import ItemMiniatures from '../../../container/ItemMiniatures/'
 import './item-view.css'
 
-const ItemView = (props) => {
-  return(
-    <div className="item-view">
-      <ItemSlider {...props} />
-      <ItemMiniatures {...props} />
-    </div>
-  )
-}
-
-// ItemView.propTypes = {
-//   props: PropTypes.type
-// }
+const ItemView = () => (
+  <div className="item-view">
+    <ItemSlider />
+    <ItemMiniatures />
+  </div>
+)
 
 export default ItemView

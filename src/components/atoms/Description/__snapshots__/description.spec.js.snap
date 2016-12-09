@@ -1,0 +1,9 @@
+exports[`test should render the Complete Description 1`] = `
+<div
+  className="bfCPRM" />
+`;
+
+exports[`test should render the Description 1`] = `
+<div
+  className="jwczpE" />
+`;

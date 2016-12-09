@@ -1,0 +1,14 @@
+exports[`test should render the PriceLabel 1`] = `
+<div
+  className="price-label">
+  <p
+    className="price-label__price">
+    <span
+      className="price-label__price__coin">
+      $
+    </span>
+     
+    22.43
+  </p>
+</div>
+`;

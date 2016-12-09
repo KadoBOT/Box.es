@@ -1,0 +1,31 @@
+exports[`test should render the ItemComments 1`] = `
+<div
+  className="item-comments">
+  <p
+    className="item-comments__load-more">
+    load more comments
+  </p>
+  <div
+    className="item-comments__comment">
+    <div
+      className="avatar"
+      style={
+        Object {
+          "background": "url(http://cdn2-www.comingsoon.net/assets/uploads/2015/12/deadpool-colossus-header.jpg)",
+        }
+      } />
+    <div
+      className="item-comments__comment__text">
+      <div
+        className="jwczpE">
+        <span
+          className="item-comments__comment__text__author">
+          colossus
+        </span>
+         
+        We will make an X-Man of you yet, Wade 
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,11 @@
+exports[`test should render the ItemAction 1`] = `
+<div
+  className="item-action">
+  <button
+    className="ksLTTq">
+    <i
+      className="fa fa-comment" />
+     Buy
+  </button>
+</div>
+`;

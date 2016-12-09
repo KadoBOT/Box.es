@@ -1,8 +1,11 @@
 import { combineReducers } from 'redux';
-import R from 'ramda'
 
-import item from './item'
+import item from './apiData'
+import selectedPicture from './selectedPicture'
 
-const rootReducer = combineReducers({ item })
+const rootReducer = combineReducers({
+  item,
+  selectedPicture,
+})
 
 export default rootReducer

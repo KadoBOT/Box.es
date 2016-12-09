@@ -1,0 +1,9 @@
+exports[`test should render the Subheader Title 1`] = `
+<div
+  className="logIZ" />
+`;
+
+exports[`test should render the Title 1`] = `
+<div
+  className="hKXDia" />
+`;

@@ -9,10 +9,6 @@ const configureStore = (preloadedState) => {
     applyMiddleware(thunk)
   )
 
-  // const store = process.env.REACT_APP_ENV === 'template' ?
-  //   applyMiddleware(thunk)(createStore)(reducer, templateStore, devTools) :
-  //   applyMiddleware(thunk)(createStore)(reducer, devTools)
-
   if (module.hot) {
     // Enable Webpack hot module replacement for reducers
     module.hot.accept('./reducers', () => {

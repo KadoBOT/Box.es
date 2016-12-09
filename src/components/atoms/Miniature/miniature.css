@@ -1,8 +1,15 @@
 .miniature {
+  border: none;
+  cursor: pointer;
   height: 60px !important;
   width: 60px !important;
   margin-right: 7.5px !important;
   margin-left: 7.5px !important;
   border-radius: 5px !important;
   background-size: cover !important;
+  background-position: center !important;
+}
+
+.miniature--selected-true {
+  border: 3px solid rgba(0, 170, 255, 0.71);
 }

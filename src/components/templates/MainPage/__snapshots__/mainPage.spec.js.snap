@@ -1,0 +1,310 @@
+exports[`test should render the MainPage 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className="main-page">
+    <div
+        className="main-page__template">
+        DEMO VERSION
+    </div>
+    <div
+        className="main-page__content">
+        <Unknown />
+        <Unknown />
+    </div>
+</div>,
+  "nodes": Array [
+    <div
+      className="main-page">
+      <div
+            className="main-page__template">
+            DEMO VERSION
+      </div>
+      <div
+            className="main-page__content">
+            <Unknown />
+            <Unknown />
+      </div>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 2,
+      "_context": Object {},
+      "_currentElement": <Unknown
+        item={
+                Object {
+                        "completeInfo": false,
+                        "currency": Object {
+                          "symbol": "$",
+                        },
+                        "description": "A Diamond Select Release! Sculpted by Gentle Giant! The ranks of the best-selling Marvel Select line expand to include one of the most deadly mutants ever, the unstoppable Juggernaut. Sculpted by Gentle Giant and standing a massive 7\" tall, Juggernaut is the latest in the, in scale, over sized figures from the Marvel Select line. Charles Xavier\'s half brother is ready to join Magneto in the fight against the X-Men and anyone else that stands in their way. Featuring Marvel Selects standard 16 points of articulation, Juggernaut, and the sans-helmet chase variant figure, are the textbook definition of Unstoppable!",
+                        "item_photos": Array [
+                          Object {
+                            "id": 473580,
+                            "is_main": false,
+                            "large": "https://images-na.ssl-images-amazon.com/images/I/719022GksTL._SL1500_.jpg",
+                            "small": "https://images-na.ssl-images-amazon.com/images/I/719022GksTL._SL1500_.jpg",
+                          },
+                          Object {
+                            "id": 473579,
+                            "is_main": false,
+                            "large": "http://www.angelfire.com/mech/jinsaotome/Blog/Juggyreview_001.JPG",
+                            "small": "http://www.angelfire.com/mech/jinsaotome/Blog/Juggyreview_001.JPG",
+                          },
+                          Object {
+                            "id": 473581,
+                            "is_main": true,
+                            "large": "https://actionfigurecanada.files.wordpress.com/2011/09/juggernaut-marvel-select-figure-2.jpg",
+                            "small": "https://actionfigurecanada.files.wordpress.com/2011/09/juggernaut-marvel-select-figure-2.jpg",
+                          },
+                          Object {
+                            "id": 473582,
+                            "is_main": false,
+                            "large": "http://4.bp.blogspot.com/-qNdk8wZtZSY/UgGmCHgBLJI/AAAAAAAB0pk/2qpwZTuNSls/s1600/52458-1.jpg",
+                            "small": "http://4.bp.blogspot.com/-qNdk8wZtZSY/UgGmCHgBLJI/AAAAAAAB0pk/2qpwZTuNSls/s1600/52458-1.jpg",
+                          },
+                          Object {
+                            "id": 473583,
+                            "is_main": false,
+                            "large": "https://s-media-cache-ak0.pinimg.com/originals/08/38/8f/08388f9c134afd90f567be95a4fe610b.jpg",
+                            "small": "https://s-media-cache-ak0.pinimg.com/originals/08/38/8f/08388f9c134afd90f567be95a4fe610b.jpg",
+                          },
+                        ],
+                        "likes_count": 80,
+                        "location_details": "Genosha",
+                        "name": "Diamond Select Marvel Select: Juggernaut Action Figure",
+                        "price": 22.43,
+                        "recent_comments": Array [
+                          Object {
+                            "comment": "We will make an X-Man of you yet, Wade ",
+                            "id": 184543,
+                            "user": Object {
+                              "avatar": Object {
+                                "is_default": false,
+                                "small_url": "http://cdn2-www.comingsoon.net/assets/uploads/2015/12/deadpool-colossus-header.jpg",
+                              },
+                              "id": 13118,
+                              "name": "Piotr Rasputin",
+                              "nickname": "colossus",
+                              "share_url": "http://box.es/nixon",
+                            },
+                          },
+                        ],
+                        "user": Object {
+                          "avatar": Object {
+                            "small_url": "http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg",
+                          },
+                          "name": "Charles Xavier",
+                          "nickname": "xavier",
+                        },
+                      }
+        } />,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": StatelessComponent {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "item": Object {
+            "completeInfo": false,
+            "currency": Object {
+              "symbol": "$",
+            },
+            "description": "A Diamond Select Release! Sculpted by Gentle Giant! The ranks of the best-selling Marvel Select line expand to include one of the most deadly mutants ever, the unstoppable Juggernaut. Sculpted by Gentle Giant and standing a massive 7\" tall, Juggernaut is the latest in the, in scale, over sized figures from the Marvel Select line. Charles Xavier\'s half brother is ready to join Magneto in the fight against the X-Men and anyone else that stands in their way. Featuring Marvel Selects standard 16 points of articulation, Juggernaut, and the sans-helmet chase variant figure, are the textbook definition of Unstoppable!",
+            "item_photos": Array [
+              Object {
+                "id": 473580,
+                "is_main": false,
+                "large": "https://images-na.ssl-images-amazon.com/images/I/719022GksTL._SL1500_.jpg",
+                "small": "https://images-na.ssl-images-amazon.com/images/I/719022GksTL._SL1500_.jpg",
+              },
+              Object {
+                "id": 473579,
+                "is_main": false,
+                "large": "http://www.angelfire.com/mech/jinsaotome/Blog/Juggyreview_001.JPG",
+                "small": "http://www.angelfire.com/mech/jinsaotome/Blog/Juggyreview_001.JPG",
+              },
+              Object {
+                "id": 473581,
+                "is_main": true,
+                "large": "https://actionfigurecanada.files.wordpress.com/2011/09/juggernaut-marvel-select-figure-2.jpg",
+                "small": "https://actionfigurecanada.files.wordpress.com/2011/09/juggernaut-marvel-select-figure-2.jpg",
+              },
+              Object {
+                "id": 473582,
+                "is_main": false,
+                "large": "http://4.bp.blogspot.com/-qNdk8wZtZSY/UgGmCHgBLJI/AAAAAAAB0pk/2qpwZTuNSls/s1600/52458-1.jpg",
+                "small": "http://4.bp.blogspot.com/-qNdk8wZtZSY/UgGmCHgBLJI/AAAAAAAB0pk/2qpwZTuNSls/s1600/52458-1.jpg",
+              },
+              Object {
+                "id": 473583,
+                "is_main": false,
+                "large": "https://s-media-cache-ak0.pinimg.com/originals/08/38/8f/08388f9c134afd90f567be95a4fe610b.jpg",
+                "small": "https://s-media-cache-ak0.pinimg.com/originals/08/38/8f/08388f9c134afd90f567be95a4fe610b.jpg",
+              },
+            ],
+            "likes_count": 80,
+            "location_details": "Genosha",
+            "name": "Diamond Select Marvel Select: Juggernaut Action Figure",
+            "price": 22.43,
+            "recent_comments": Array [
+              Object {
+                "comment": "We will make an X-Man of you yet, Wade ",
+                "id": 184543,
+                "user": Object {
+                  "avatar": Object {
+                    "is_default": false,
+                    "small_url": "http://cdn2-www.comingsoon.net/assets/uploads/2015/12/deadpool-colossus-header.jpg",
+                  },
+                  "id": 13118,
+                  "name": "Piotr Rasputin",
+                  "nickname": "colossus",
+                  "share_url": "http://box.es/nixon",
+                },
+              },
+            ],
+            "user": Object {
+              "avatar": Object {
+                "small_url": "http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg",
+              },
+              "name": "Charles Xavier",
+              "nickname": "xavier",
+            },
+          },
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div
+          className="main-page">
+          <div
+                    className="main-page__template">
+                    DEMO VERSION
+          </div>
+          <div
+                    className="main-page__content">
+                    <Unknown />
+                    <Unknown />
+          </div>
+</div>,
+        "_debugID": 2,
+        "_renderedOutput": <div
+          className="main-page">
+          <div
+                    className="main-page__template">
+                    DEMO VERSION
+          </div>
+          <div
+                    className="main-page__content">
+                    <Unknown />
+                    <Unknown />
+          </div>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Unknown
+    item={
+        Object {
+            "completeInfo": false,
+            "currency": Object {
+              "symbol": "$",
+            },
+            "description": "A Diamond Select Release! Sculpted by Gentle Giant! The ranks of the best-selling Marvel Select line expand to include one of the most deadly mutants ever, the unstoppable Juggernaut. Sculpted by Gentle Giant and standing a massive 7\" tall, Juggernaut is the latest in the, in scale, over sized figures from the Marvel Select line. Charles Xavier\'s half brother is ready to join Magneto in the fight against the X-Men and anyone else that stands in their way. Featuring Marvel Selects standard 16 points of articulation, Juggernaut, and the sans-helmet chase variant figure, are the textbook definition of Unstoppable!",
+            "item_photos": Array [
+              Object {
+                "id": 473580,
+                "is_main": false,
+                "large": "https://images-na.ssl-images-amazon.com/images/I/719022GksTL._SL1500_.jpg",
+                "small": "https://images-na.ssl-images-amazon.com/images/I/719022GksTL._SL1500_.jpg",
+              },
+              Object {
+                "id": 473579,
+                "is_main": false,
+                "large": "http://www.angelfire.com/mech/jinsaotome/Blog/Juggyreview_001.JPG",
+                "small": "http://www.angelfire.com/mech/jinsaotome/Blog/Juggyreview_001.JPG",
+              },
+              Object {
+                "id": 473581,
+                "is_main": true,
+                "large": "https://actionfigurecanada.files.wordpress.com/2011/09/juggernaut-marvel-select-figure-2.jpg",
+                "small": "https://actionfigurecanada.files.wordpress.com/2011/09/juggernaut-marvel-select-figure-2.jpg",
+              },
+              Object {
+                "id": 473582,
+                "is_main": false,
+                "large": "http://4.bp.blogspot.com/-qNdk8wZtZSY/UgGmCHgBLJI/AAAAAAAB0pk/2qpwZTuNSls/s1600/52458-1.jpg",
+                "small": "http://4.bp.blogspot.com/-qNdk8wZtZSY/UgGmCHgBLJI/AAAAAAAB0pk/2qpwZTuNSls/s1600/52458-1.jpg",
+              },
+              Object {
+                "id": 473583,
+                "is_main": false,
+                "large": "https://s-media-cache-ak0.pinimg.com/originals/08/38/8f/08388f9c134afd90f567be95a4fe610b.jpg",
+                "small": "https://s-media-cache-ak0.pinimg.com/originals/08/38/8f/08388f9c134afd90f567be95a4fe610b.jpg",
+              },
+            ],
+            "likes_count": 80,
+            "location_details": "Genosha",
+            "name": "Diamond Select Marvel Select: Juggernaut Action Figure",
+            "price": 22.43,
+            "recent_comments": Array [
+              Object {
+                "comment": "We will make an X-Man of you yet, Wade ",
+                "id": 184543,
+                "user": Object {
+                  "avatar": Object {
+                    "is_default": false,
+                    "small_url": "http://cdn2-www.comingsoon.net/assets/uploads/2015/12/deadpool-colossus-header.jpg",
+                  },
+                  "id": 13118,
+                  "name": "Piotr Rasputin",
+                  "nickname": "colossus",
+                  "share_url": "http://box.es/nixon",
+                },
+              },
+            ],
+            "user": Object {
+              "avatar": Object {
+                "small_url": "http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg",
+              },
+              "name": "Charles Xavier",
+              "nickname": "xavier",
+            },
+          }
+    } />,
+}
+`;

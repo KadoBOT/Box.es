@@ -8,11 +8,14 @@ const Comments = ({item}) => {
     <div className="item-comments">
       <p className="item-comments__load-more">load more comments</p>
       {item.recent_comments.map(c => (
-        <div className="item-comments__comment">
+        <div
+          className="item-comments__comment"
+          key={c.id}
+        >
           <Avatar img={c.user.avatar.small_url} />
           <div className="item-comments__comment__text">
             <Description>
-              <span className="item-comments__comment__text__author">{c.user.name}</span> {c.comment}
+              <span className="item-comments__comment__text__author">{c.user.nickname}</span> {c.comment}
             </Description>
           </div>
         </div>
@@ -22,7 +25,7 @@ const Comments = ({item}) => {
 }
 
 Comments.propTypes = {
-  props: PropTypes.type
+  item: PropTypes.object.isRequired
 }
 
 export default Comments

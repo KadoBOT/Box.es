@@ -1,6 +1,6 @@
 .item-slider {
   flex: 1;
   background-size: cover !important;
-  background-position: centerr !important;
+  background-position: center !important;
   position: relative;
 }

@@ -4,8 +4,8 @@ import './avatar.css'
 
 const Avatar = ({img}) => <div className="avatar" style={{background: `url(${img})`}} />
 
-// Avatar.propTypes = {
-//   props: PropTypes.type
-// }
+Avatar.propTypes = {
+  img: PropTypes.string.isRequired
+}
 
 export default Avatar

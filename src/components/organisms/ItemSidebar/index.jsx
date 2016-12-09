@@ -1,20 +1,16 @@
-import React, {PropTypes} from 'react'
+import React from 'react'
 
-import { ItemInfo, ItemComments, ItemAction } from '../../molecules/'
+import ItemInfo from '../../../container/ItemInfo/'
+import ItemComments from '../../../container/ItemComments/'
+import { ItemAction } from '../../molecules/'
 import './item-sidebar.css'
 
-const ItemSidebar = (props) => {
-  return(
-    <div className="item-sidebar">
-      <ItemInfo {...props} />
-      <ItemComments {...props} />
-      <ItemAction {...props} />
-    </div>
-  )
-}
-
-// ItemSidebar.propTypes = {
-//   props: PropTypes.type
-// }
+const ItemSidebar = () => (
+  <div className="item-sidebar">
+    <ItemInfo />
+    <ItemComments />
+    <ItemAction />
+  </div>
+)
 
 export default ItemSidebar

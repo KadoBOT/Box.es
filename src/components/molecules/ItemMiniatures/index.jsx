@@ -1,20 +1,25 @@
 import React, {PropTypes} from 'react'
 
-import { Miniature } from '../../atoms/'
+import Miniature from '../../../container/Miniature/'
 import './item-miniatures.css'
 
-const ItemMiniatures = ({item}) => {
+const ItemMiniatures = ({item, selectedPicture}) => {
   return(
     <div className="item-miniatures">
       {item.item_photos.map(p =>
-        <Miniature photo={p} />
+        <Miniature
+          key={p.id}
+          photo={p}
+          selectedPicture={selectedPicture}
+        />
       )}
     </div>
   )
 }
 
-// ItemMiniatures.propTypes = {
-//   props: PropTypes.type
-// }
+ItemMiniatures.propTypes = {
+  item: PropTypes.object.isRequired,
+  selectedPicture: PropTypes.string.isRequired,
+}
 
 export default ItemMiniatures

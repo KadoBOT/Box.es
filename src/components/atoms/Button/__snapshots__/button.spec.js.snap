@@ -1,0 +1,9 @@
+exports[`test should render the Button 1`] = `
+<button
+  className="ksLTTq" />
+`;
+
+exports[`test should render the Follow Button 1`] = `
+<button
+  className="hMPQfj" />
+`;

@@ -3,8 +3,7 @@ import React, {PropTypes} from 'react'
 import { Avatar, Button, Description, Title } from '../../atoms/'
 import './item-info.css'
 
-const ItemInfo = ({item}) => {
-  return(
+const ItemInfo = ({item, onClick}) => (
     <div className="item-info">
       <Title>{item.name}</Title>
       <div className="item-info__subtitle">
@@ -23,18 +22,28 @@ const ItemInfo = ({item}) => {
             <p className="item-info__author__description__details__name">{item.user.name}</p>
             <p className="item-info__author__description__details__nickname">{item.user.nickname}</p>
           </div>
-          <Description>
+          {!item.completeInfo && <Description>
             {item.description}
-            <span className="item-info__author__description__details__read-more">... <a href="#">read more</a></span>
-          </Description>
+            <span className="item-info__author__description__details__read-more">...
+              <a
+                href="#"
+                onClick={onClick}
+              >
+                read more
+              </a>
+            </span>
+          </Description> }
+          {item.completeInfo && <Description complete>
+            {item.description}
+          </Description>}
         </div>
       </div>
     </div>
-  )
-}
+)
 
 ItemInfo.propTypes = {
-  props: PropTypes.type
+  item: PropTypes.object.isRequired,
+  onClick: PropTypes.func.isRequired
 }
 
 export default ItemInfo
