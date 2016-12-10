@@ -20,12 +20,12 @@ const SliderArrows = ({item, selectPicture, selectedPicture}) => {
   return(
     <div className="slider-arrows">
       <i
-        className="fa fa-arrow-circle-left"
+        className="fa fa-chevron-circle-left"
         onClick={() => changePic(-1)}
       />
       <span />
       <i
-        className="fa fa-arrow-circle-right"
+        className="fa fa-chevron-circle-right"
         onClick={() => changePic(1)}
       />
     </div>

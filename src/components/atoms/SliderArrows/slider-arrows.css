@@ -10,18 +10,18 @@
   text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
-.slider-arrows > .fa-arrow-circle-right {
+.slider-arrows > .fa-chevron-circle-right {
   position: absolute;
-  right: 12.5vw;
-  font-size: 85px;
+  right: 15.5vw;
+  font-size: 36px;
   color: white;
   z-index: 99;
 }
 
-.slider-arrows > .fa-arrow-circle-left {
+.slider-arrows > .fa-chevron-circle-left {
   position: absolute;
-  left: -7.5vw;
-  font-size: 85px;
+  left: -4.5vw;
+  font-size: 36px;
   color: white;
   z-index: 99;
 }
