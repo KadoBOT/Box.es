@@ -9,7 +9,7 @@ const SliderArrows = ({item, selectPicture, selectedPicture}) => {
       const select = index => selectPicture((item.item_photos[index].large))
 
       if(idx === 0 && val < 0){
-        select(props.item.item_photos.length - 1)
+        select(item.item_photos.length - 1)
       } else if(idx === item.item_photos.length - 1 && val > 0){
         select(0)
       } else {
