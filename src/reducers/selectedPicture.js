@@ -1,4 +1,4 @@
-import { createReducer } from '../helpers/createReducer'
+import { createReducer } from '../helpers/_createReducer'
 import { SELECT_PICTURE } from '../constants'
 
 const selectPicture = createReducer('' , {

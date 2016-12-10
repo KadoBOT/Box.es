@@ -1,9 +1,9 @@
-import * as api from '../helpers/api'
+import * as api from '../helpers/_api'
 import R from 'ramda'
 
 //action to handle the request to the api of item and comment
-export const requestItem = R.assoc({ type: 'REQUEST_ITEM' })
-export const requestComment = R.assoc({ type: 'REQUEST_COMMENT' })
+export const requestItem = () => ({ type: 'REQUEST_ITEM' })
+export const requestComment = () => ({ type: 'REQUEST_COMMENT' })
 
 //action to handle the api response for the item
 export const receivedItem = R.assoc('item', R.__, { type: 'RECEIVE_ITEM' })
@@ -19,7 +19,7 @@ export const fetchItem = () => dispatch => {
   .then(R.compose(dispatch, receivedItem))
 }
 
-//async action to dispatch comment request and repsonse actions
+// async action to dispatch comment request and repsonse actions
 export const fetchComments = () => dispatch => {
   dispatch(requestComment())
 
@@ -28,7 +28,7 @@ export const fetchComments = () => dispatch => {
 }
 
 //action to handle the read more click
-export const readMore = R.assoc({ type: 'READ_MORE' })
+export const readMore = () => ({ type: 'READ_MORE' })
 
 //action to handle the selected picture
 export const selectPicture = R.assoc('selectedPicture', R.__, { type: 'SELECT_PICTURE' })

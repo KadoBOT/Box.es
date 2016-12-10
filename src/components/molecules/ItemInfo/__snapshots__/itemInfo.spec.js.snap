@@ -34,7 +34,7 @@ ShallowWrapper {
         className="item-info__author">
         <a
             href="http://box.es/charlesxavier">
-            <Avatar
+            <Unknown
                 img="http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg" />
         </a>
         <div
@@ -101,7 +101,7 @@ ShallowWrapper {
             className="item-info__author">
             <a
                   href="http://box.es/charlesxavier">
-                  <Avatar
+                  <Unknown
                         img="http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg" />
             </a>
             <div
@@ -146,7 +146,7 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <ItemInfo
+      "_currentElement": <Unknown
         item={
                 Object {
                         "completeInfo": false,
@@ -309,7 +309,7 @@ ShallowWrapper {
                     className="item-info__author">
                     <a
                               href="http://box.es/charlesxavier">
-                              <Avatar
+                              <Unknown
                                         img="http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg" />
                     </a>
                     <div
@@ -376,7 +376,7 @@ ShallowWrapper {
                     className="item-info__author">
                     <a
                               href="http://box.es/charlesxavier">
-                              <Avatar
+                              <Unknown
                                         img="http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg" />
                     </a>
                     <div
@@ -425,7 +425,7 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <ItemInfo
+  "unrendered": <Unknown
     item={
         Object {
             "completeInfo": false,
@@ -519,7 +519,7 @@ ShallowWrapper {
         className="item-info__author">
         <a
             href="http://box.es/charlesxavier">
-            <Avatar
+            <Unknown
                 img="http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg" />
         </a>
         <div
@@ -578,7 +578,7 @@ ShallowWrapper {
             className="item-info__author">
             <a
                   href="http://box.es/charlesxavier">
-                  <Avatar
+                  <Unknown
                         img="http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg" />
             </a>
             <div
@@ -615,7 +615,7 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <ItemInfo
+      "_currentElement": <Unknown
         item={
                 Object {
                         "completeInfo": true,
@@ -778,7 +778,7 @@ ShallowWrapper {
                     className="item-info__author">
                     <a
                               href="http://box.es/charlesxavier">
-                              <Avatar
+                              <Unknown
                                         img="http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg" />
                     </a>
                     <div
@@ -837,7 +837,7 @@ ShallowWrapper {
                     className="item-info__author">
                     <a
                               href="http://box.es/charlesxavier">
-                              <Avatar
+                              <Unknown
                                         img="http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg" />
                     </a>
                     <div
@@ -878,7 +878,7 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <ItemInfo
+  "unrendered": <Unknown
     item={
         Object {
             "completeInfo": true,

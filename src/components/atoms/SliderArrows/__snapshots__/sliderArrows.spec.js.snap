@@ -34,7 +34,7 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <SliderArrows
+      "_currentElement": <Unknown
         item={
                 Object {
                         "completeInfo": false,
@@ -203,7 +203,7 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <SliderArrows
+  "unrendered": <Unknown
     item={
         Object {
             "completeInfo": false,

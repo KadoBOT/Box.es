@@ -13,7 +13,7 @@ ShallowWrapper {
             "background": "url(colossus.jpg)",
           }
     }>
-    <PriceLabel
+    <Unknown
         price={22.43} />
 </div>,
   "nodes": Array [
@@ -24,7 +24,7 @@ ShallowWrapper {
                   "background": "url(colossus.jpg)",
                 }
       }>
-      <PriceLabel
+      <Unknown
             price={22.43} />
 </div>,
   ],
@@ -178,7 +178,7 @@ ShallowWrapper {
                               "background": "url(colossus.jpg)",
                             }
           }>
-          <PriceLabel
+          <Unknown
                     price={22.43} />
 </div>,
         "_debugID": 2,
@@ -189,7 +189,7 @@ ShallowWrapper {
                               "background": "url(colossus.jpg)",
                             }
           }>
-          <PriceLabel
+          <Unknown
                     price={22.43} />
 </div>,
       },

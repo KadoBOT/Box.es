@@ -4,9 +4,7 @@ import * as types from '../constants/'
 describe('comments reducer', () => {
   it('should handle REQUEST_COMMENT', () => {
     expect(
-      reducer({}, {
-        type: types.REQUEST_COMMENT
-      })
+      reducer({}, {type: types.REQUEST_COMMENT})
     ).toEqual({
       "comments": ["isFetching"],
       "item": {
@@ -18,8 +16,7 @@ describe('comments reducer', () => {
     )
 
     expect(
-      reducer(
-        {},
+      reducer({},
         {
           type: types.RECEIVE_COMMENT,
           comments: [{
@@ -28,9 +25,7 @@ describe('comments reducer', () => {
         }
       )
     ).toEqual({
-      "comments": [
-        {"id": 184543}
-      ],
+      "comments": [{"id": 184543}],
       "item": {
         "completeInfo": false,
         "isFetching": true
@@ -53,13 +48,10 @@ describe('items reducer', () => {
     })
 
     expect(
-      reducer(
-        {},
+      reducer({},
         {
           type: types.RECEIVE_ITEM,
-          comments: [{
-            "id": 184543,
-          }]
+          comments: [{"id": 184543}]
         }
       )
     ).toEqual({
@@ -69,13 +61,10 @@ describe('items reducer', () => {
     })
 
     expect(
-      reducer(
-        {},
+      reducer({},
         {
           type: types.READ_MORE,
-          comments: [{
-            "id": 184543,
-          }]
+          comments: [{"id": 184543}]
         }
       )
     ).toEqual({
@@ -83,5 +72,24 @@ describe('items reducer', () => {
       "item": {"completeInfo": true, "isFetching": true},
       "selectedPicture": ""
     })
+  })
+})
+
+describe('selectPicture reducer', () => {
+  it('should handle SELECT_PICTURE', () => {
+    expect(
+      reducer({}, {
+        type: types.SELECT_PICTURE,
+        selectedPicture: "colossus.jpg"
+      })
+    ).toEqual({
+      "comments": ["isFetching"],
+      "item": {
+        "completeInfo": false,
+        "isFetching": true
+      },
+        "selectedPicture": "colossus.jpg"
+      }
+    )
   })
 })

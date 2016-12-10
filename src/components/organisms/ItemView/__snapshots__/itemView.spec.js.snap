@@ -9,13 +9,13 @@ ShallowWrapper {
   "node": <div
     className="item-view">
     <Connect(ItemSlider) />
-    <Connect(ItemMiniatures) />
+    <Connect(Component) />
 </div>,
   "nodes": Array [
     <div
       className="item-view">
       <Connect(ItemSlider) />
-      <Connect(ItemMiniatures) />
+      <Connect(Component) />
 </div>,
   ],
   "options": Object {},
@@ -24,7 +24,7 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <ItemView />,
+      "_currentElement": <Unknown />,
       "_debugID": 1,
       "_hostContainerInfo": null,
       "_hostParent": null,
@@ -55,13 +55,13 @@ ShallowWrapper {
         "_currentElement": <div
           className="item-view">
           <Connect(ItemSlider) />
-          <Connect(ItemMiniatures) />
+          <Connect(Component) />
 </div>,
         "_debugID": 2,
         "_renderedOutput": <div
           className="item-view">
           <Connect(ItemSlider) />
-          <Connect(ItemMiniatures) />
+          <Connect(Component) />
 </div>,
       },
       "_renderedNodeType": 0,
@@ -74,6 +74,6 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <ItemView />,
+  "unrendered": <Unknown />,
 }
 `;

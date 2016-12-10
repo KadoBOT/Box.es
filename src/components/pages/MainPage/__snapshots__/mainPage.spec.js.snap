@@ -10,7 +10,7 @@ ShallowWrapper {
     className="main-page">
     <div
         className="main-page__content">
-        <SliderArrows
+        <Unknown
             fetchComments={[Function]}
             fetchItem={[Function]}
             item={
@@ -66,8 +66,8 @@ ShallowWrapper {
                     },
                   }
             } />
-        <ItemView />
-        <ItemSidebar />
+        <Unknown />
+        <Unknown />
     </div>
 </div>,
   "nodes": Array [
@@ -75,7 +75,7 @@ ShallowWrapper {
       className="main-page">
       <div
             className="main-page__content">
-            <SliderArrows
+            <Unknown
                   fetchComments={[Function]}
                   fetchItem={[Function]}
                   item={
@@ -131,8 +131,8 @@ ShallowWrapper {
                               },
                             }
                   } />
-            <ItemView />
-            <ItemSidebar />
+            <Unknown />
+            <Unknown />
       </div>
 </div>,
   ],
@@ -283,7 +283,7 @@ ShallowWrapper {
           className="main-page">
           <div
                     className="main-page__content">
-                    <SliderArrows
+                    <Unknown
                               fetchComments={[Function]}
                               fetchItem={[Function]}
                               item={
@@ -339,8 +339,8 @@ ShallowWrapper {
                                                   },
                                                 }
                               } />
-                    <ItemView />
-                    <ItemSidebar />
+                    <Unknown />
+                    <Unknown />
           </div>
 </div>,
         "_debugID": 2,
@@ -348,7 +348,7 @@ ShallowWrapper {
           className="main-page">
           <div
                     className="main-page__content">
-                    <SliderArrows
+                    <Unknown
                               fetchComments={[Function]}
                               fetchItem={[Function]}
                               item={
@@ -404,8 +404,8 @@ ShallowWrapper {
                                                   },
                                                 }
                               } />
-                    <ItemView />
-                    <ItemSidebar />
+                    <Unknown />
+                    <Unknown />
           </div>
 </div>,
       },

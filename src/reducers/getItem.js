@@ -1,6 +1,6 @@
 import R from 'ramda'
 
-import { createReducer } from '../helpers/createReducer'
+import { createReducer } from '../helpers/_createReducer'
 import {READ_MORE, REQUEST_ITEM, RECEIVE_ITEM } from '../constants'
 
 const item = createReducer({

@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 
-import templateState from './helpers/templateState' //initial state
+import templateState from './helpers/_templateState' //initial state
 import App from './container/App';
 import configureStore from './store';
 import './base.css'

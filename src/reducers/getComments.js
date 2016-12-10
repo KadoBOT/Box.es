@@ -1,4 +1,4 @@
-import { createReducer } from '../helpers/createReducer'
+import { createReducer } from '../helpers/_createReducer'
 import { RECEIVE_COMMENT, REQUEST_COMMENT } from '../constants'
 
 //return ['isFetching'] until data is received from the api

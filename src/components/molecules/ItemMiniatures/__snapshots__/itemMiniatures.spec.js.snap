@@ -8,7 +8,7 @@ ShallowWrapper {
   "length": 1,
   "node": <div
     className="item-miniatures">
-    <Connect(Miniature)
+    <Connect(Component)
         photo={
             Object {
                 "id": 473580,
@@ -18,7 +18,7 @@ ShallowWrapper {
               }
         }
         selectedPicture="colossus.jpg" />
-    <Connect(Miniature)
+    <Connect(Component)
         photo={
             Object {
                 "id": 473579,
@@ -28,7 +28,7 @@ ShallowWrapper {
               }
         }
         selectedPicture="colossus.jpg" />
-    <Connect(Miniature)
+    <Connect(Component)
         photo={
             Object {
                 "id": 473581,
@@ -38,7 +38,7 @@ ShallowWrapper {
               }
         }
         selectedPicture="colossus.jpg" />
-    <Connect(Miniature)
+    <Connect(Component)
         photo={
             Object {
                 "id": 473582,
@@ -48,7 +48,7 @@ ShallowWrapper {
               }
         }
         selectedPicture="colossus.jpg" />
-    <Connect(Miniature)
+    <Connect(Component)
         photo={
             Object {
                 "id": 473583,
@@ -62,7 +62,7 @@ ShallowWrapper {
   "nodes": Array [
     <div
       className="item-miniatures">
-      <Connect(Miniature)
+      <Connect(Component)
             photo={
                   Object {
                         "id": 473580,
@@ -72,7 +72,7 @@ ShallowWrapper {
                       }
             }
             selectedPicture="colossus.jpg" />
-      <Connect(Miniature)
+      <Connect(Component)
             photo={
                   Object {
                         "id": 473579,
@@ -82,7 +82,7 @@ ShallowWrapper {
                       }
             }
             selectedPicture="colossus.jpg" />
-      <Connect(Miniature)
+      <Connect(Component)
             photo={
                   Object {
                         "id": 473581,
@@ -92,7 +92,7 @@ ShallowWrapper {
                       }
             }
             selectedPicture="colossus.jpg" />
-      <Connect(Miniature)
+      <Connect(Component)
             photo={
                   Object {
                         "id": 473582,
@@ -102,7 +102,7 @@ ShallowWrapper {
                       }
             }
             selectedPicture="colossus.jpg" />
-      <Connect(Miniature)
+      <Connect(Component)
             photo={
                   Object {
                         "id": 473583,
@@ -120,7 +120,7 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <ItemMiniatures
+      "_currentElement": <Unknown
         item={
                 Object {
                         "completeInfo": false,
@@ -257,7 +257,7 @@ ShallowWrapper {
       "_renderedComponent": NoopInternalComponent {
         "_currentElement": <div
           className="item-miniatures">
-          <Connect(Miniature)
+          <Connect(Component)
                     photo={
                               Object {
                                         "id": 473580,
@@ -267,7 +267,7 @@ ShallowWrapper {
                                       }
                     }
                     selectedPicture="colossus.jpg" />
-          <Connect(Miniature)
+          <Connect(Component)
                     photo={
                               Object {
                                         "id": 473579,
@@ -277,7 +277,7 @@ ShallowWrapper {
                                       }
                     }
                     selectedPicture="colossus.jpg" />
-          <Connect(Miniature)
+          <Connect(Component)
                     photo={
                               Object {
                                         "id": 473581,
@@ -287,7 +287,7 @@ ShallowWrapper {
                                       }
                     }
                     selectedPicture="colossus.jpg" />
-          <Connect(Miniature)
+          <Connect(Component)
                     photo={
                               Object {
                                         "id": 473582,
@@ -297,7 +297,7 @@ ShallowWrapper {
                                       }
                     }
                     selectedPicture="colossus.jpg" />
-          <Connect(Miniature)
+          <Connect(Component)
                     photo={
                               Object {
                                         "id": 473583,
@@ -311,7 +311,7 @@ ShallowWrapper {
         "_debugID": 2,
         "_renderedOutput": <div
           className="item-miniatures">
-          <Connect(Miniature)
+          <Connect(Component)
                     photo={
                               Object {
                                         "id": 473580,
@@ -321,7 +321,7 @@ ShallowWrapper {
                                       }
                     }
                     selectedPicture="colossus.jpg" />
-          <Connect(Miniature)
+          <Connect(Component)
                     photo={
                               Object {
                                         "id": 473579,
@@ -331,7 +331,7 @@ ShallowWrapper {
                                       }
                     }
                     selectedPicture="colossus.jpg" />
-          <Connect(Miniature)
+          <Connect(Component)
                     photo={
                               Object {
                                         "id": 473581,
@@ -341,7 +341,7 @@ ShallowWrapper {
                                       }
                     }
                     selectedPicture="colossus.jpg" />
-          <Connect(Miniature)
+          <Connect(Component)
                     photo={
                               Object {
                                         "id": 473582,
@@ -351,7 +351,7 @@ ShallowWrapper {
                                       }
                     }
                     selectedPicture="colossus.jpg" />
-          <Connect(Miniature)
+          <Connect(Component)
                     photo={
                               Object {
                                         "id": 473583,
@@ -373,7 +373,7 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <ItemMiniatures
+  "unrendered": <Unknown
     item={
         Object {
             "completeInfo": false,

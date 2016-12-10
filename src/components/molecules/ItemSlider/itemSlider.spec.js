@@ -2,7 +2,7 @@ import React from 'react'
 import { shallow, render, mount } from 'enzyme';
 
 import ItemSlider from './index'
-import templateState from '../../../helpers/templateState'
+import templateState from '../../../helpers/_templateState'
 
 it('should render the ItemSlider', () => {
     const wrapper = shallow(
