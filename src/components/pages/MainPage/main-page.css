@@ -2,11 +2,11 @@
   .main-page {
     flex-direction: column;
     height: auto !important;
+    width: 100%;
   }
   .main-page__content {
     display: -webkit-box !important;
     flex-direction: column;
-    margin-bottom: 40px;
   }
 }
 
