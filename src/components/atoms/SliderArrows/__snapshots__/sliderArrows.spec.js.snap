@@ -9,22 +9,22 @@ ShallowWrapper {
   "node": <div
     className="slider-arrows">
     <i
-        className="fa fa-arrow-circle-left"
+        className="fa fa-chevron-circle-left"
         onClick={[Function]} />
     <span />
     <i
-        className="fa fa-arrow-circle-right"
+        className="fa fa-chevron-circle-right"
         onClick={[Function]} />
 </div>,
   "nodes": Array [
     <div
       className="slider-arrows">
       <i
-            className="fa fa-arrow-circle-left"
+            className="fa fa-chevron-circle-left"
             onClick={[Function]} />
       <span />
       <i
-            className="fa fa-arrow-circle-right"
+            className="fa fa-chevron-circle-right"
             onClick={[Function]} />
 </div>,
   ],
@@ -174,22 +174,22 @@ ShallowWrapper {
         "_currentElement": <div
           className="slider-arrows">
           <i
-                    className="fa fa-arrow-circle-left"
+                    className="fa fa-chevron-circle-left"
                     onClick={[Function]} />
           <span />
           <i
-                    className="fa fa-arrow-circle-right"
+                    className="fa fa-chevron-circle-right"
                     onClick={[Function]} />
 </div>,
         "_debugID": 2,
         "_renderedOutput": <div
           className="slider-arrows">
           <i
-                    className="fa fa-arrow-circle-left"
+                    className="fa fa-chevron-circle-left"
                     onClick={[Function]} />
           <span />
           <i
-                    className="fa fa-arrow-circle-right"
+                    className="fa fa-chevron-circle-right"
                     onClick={[Function]} />
 </div>,
       },
