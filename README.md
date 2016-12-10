@@ -49,3 +49,4 @@ Coverage test: `npm run test -- --coverage`
 - Comments Pagination (Couldn't find any item with paginated comments to test)
 - Reducer Async Test (CORS didn't allowed me to test the Async Calls)
 - Test Coverage is at 76%. Can be improved.
+- Make it responsive.

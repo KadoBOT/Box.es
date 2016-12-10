@@ -3,6 +3,7 @@
   bottom: 50%;
   z-index: 99;
   width: 100%;
+  cursor: pointer;
 }
 
 .slider-arrows > .fa {
