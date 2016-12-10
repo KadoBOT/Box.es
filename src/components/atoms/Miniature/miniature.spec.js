@@ -4,7 +4,10 @@ import Miniature from './index'
 
 it('should render the shallow', () => {
     const wrapper = shallow(
-        <Miniature photo='Events'/>
+        <Miniature
+          onClick={jest.fn()}
+          photo='Events'
+        />
     );
     expect(wrapper).toMatchSnapshot();
 });

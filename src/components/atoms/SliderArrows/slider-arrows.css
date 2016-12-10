@@ -1,0 +1,26 @@
+.slider-arrows {
+  position: fixed;
+  bottom: 50%;
+  z-index: 99;
+  width: 100%;
+}
+
+.slider-arrows > .fa {
+  text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
+}
+
+.slider-arrows > .fa-arrow-circle-right {
+  position: absolute;
+  right: 12.5vw;
+  font-size: 85px;
+  color: white;
+  z-index: 99;
+}
+
+.slider-arrows > .fa-arrow-circle-left {
+  position: absolute;
+  left: -7.5vw;
+  font-size: 85px;
+  color: white;
+  z-index: 99;
+}

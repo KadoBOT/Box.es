@@ -7,25 +7,140 @@ exports[`test should render the ItemComments 1`] = `
   </p>
   <div
     className="item-comments__comment">
-    <div
-      className="avatar"
-      style={
-        Object {
-          "background": "url(http://cdn2-www.comingsoon.net/assets/uploads/2015/12/deadpool-colossus-header.jpg)",
-        }
-      } />
+    <a
+      href="http://box.es/colossus">
+      <div
+        className="avatar"
+        style={
+          Object {
+            "background": "url(http://cdn2-www.comingsoon.net/assets/uploads/2015/12/deadpool-colossus-header.jpg)",
+          }
+        } />
+    </a>
     <div
       className="item-comments__comment__text">
       <div
-        className="jwczpE">
-        <span
-          className="item-comments__comment__text__author">
-          colossus
-        </span>
+        className="fTcZCa">
+        <a
+          href="http://box.es/colossus">
+          <span
+            className="item-comments__comment__text__author">
+            colossus
+          </span>
+        </a>
          
-        We will make an X-Man of you yet, Wade 
+        <span
+          title="We will make an X-Man of you yet, Wade">
+          We will make an X-Man of you yet, Wade
+        </span>
       </div>
     </div>
+  </div>
+  <div
+    className="item-comments__comment">
+    <a
+      href="http://box.es/deadpool">
+      <div
+        className="avatar"
+        style={
+          Object {
+            "background": "url(http://nerdist.com/wp-content/uploads/2016/10/20161025_n_nerdistnews_deadpool2director_1x1.jpg)",
+          }
+        } />
+    </a>
+    <div
+      className="item-comments__comment__text">
+      <div
+        className="fTcZCa">
+        <a
+          href="http://box.es/deadpool">
+          <span
+            className="item-comments__comment__text__author">
+            deadpool
+          </span>
+        </a>
+         
+        <span
+          title="If I ever decide to become a crime-fighting shit swizzler, who rooms with a bunch of other little whiners at Neverland Mansion with some creepy, old, bald, Heaven\'s Gate-looking motherfucker... on that day, I\'ll send your shiny, happy ass a friend request!">
+          If I ever decide to become a crime-fighting shit swizzler, who rooms with a bunch of other little whiners at Neverland Mansion with some creepy, old, bald, Heaven\'s Gate-looking motherfucker... on that day, I\'ll send your shiny, happy ass a friend request!
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="item-comments__comment">
+    <a
+      href="http://box.es/ntw">
+      <div
+        className="avatar"
+        style={
+          Object {
+            "background": "url(https://s-media-cache-ak0.pinimg.com/736x/48/c9/8e/48c98e3d4dbc0fc782cb1e6877b59a33.jpg)",
+          }
+        } />
+    </a>
+    <div
+      className="item-comments__comment__text">
+      <div
+        className="fTcZCa">
+        <a
+          href="http://box.es/ntw">
+          <span
+            className="item-comments__comment__text__author">
+            negasonic teenage warhead
+          </span>
+        </a>
+         
+        <span
+          title="You guys going for a bite? Early bird special?">
+          You guys going for a bite? Early bird special?
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="item-comments__comment">
+    <a
+      href="http://box.es/blindal">
+      <div
+        className="avatar"
+        style={
+          Object {
+            "background": "url(http://starkindustries.ru/_dr/2/60896654.png)",
+          }
+        } />
+    </a>
+    <div
+      className="item-comments__comment__text">
+      <div
+        className="fTcZCa">
+        <a
+          href="http://box.es/blindal">
+          <span
+            className="item-comments__comment__text__author">
+            blind al
+          </span>
+        </a>
+         
+        <span
+          title="Love is blind, Wade">
+          Love is blind, Wade
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`test should render the ItemComments 2`] = `
+<div
+  className="item-comments">
+  <p
+    className="item-comments__load-more">
+    load more comments
+  </p>
+  <div>
+    Loading Comments...
   </div>
 </div>
 `;

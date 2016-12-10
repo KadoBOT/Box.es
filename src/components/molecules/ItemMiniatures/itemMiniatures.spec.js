@@ -6,7 +6,7 @@ import templateState from '../../../helpers/templateState'
 
 it('should render the ItemMiniatures', () => {
     const wrapper = shallow(
-        <ItemMiniatures item={templateState.item} selectedPicture={jest.fn()} />
+        <ItemMiniatures item={templateState.item} selectedPicture="colossus.jpg" />
     );
     expect(wrapper).toMatchSnapshot();
 });

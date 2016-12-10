@@ -30,7 +30,7 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <Unknown
+      "_currentElement": <Miniature
         onClick={[Function]}
         photo="Events" />,
       "_debugID": 3,
@@ -91,7 +91,7 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <Unknown
+  "unrendered": <Miniature
     onClick={[Function]}
     photo="Events" />,
 }
@@ -129,7 +129,7 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <Unknown
+      "_currentElement": <Miniature
         onClick={[Function]}
         photo="Events" />,
       "_debugID": 3,
@@ -190,7 +190,7 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <Unknown
+  "unrendered": <Miniature
     onClick={[Function]}
     photo="Events" />,
 }
@@ -228,7 +228,8 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <Unknown
+      "_currentElement": <Miniature
+        onClick={[Function]}
         photo="Events" />,
       "_debugID": 1,
       "_hostContainerInfo": null,
@@ -237,6 +238,7 @@ ShallowWrapper {
         "_reactInternalInstance": [Circular],
         "context": Object {},
         "props": Object {
+          "onClick": [Function],
           "photo": "Events",
         },
         "refs": Object {},
@@ -287,7 +289,8 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <Unknown
+  "unrendered": <Miniature
+    onClick={[Function]}
     photo="Events" />,
 }
 `;

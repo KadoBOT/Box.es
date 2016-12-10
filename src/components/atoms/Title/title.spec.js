@@ -1,17 +1,17 @@
 import React from 'react'
-import renderer from 'react-test-renderer';
+import { shallow, render, mount } from 'enzyme';
 import Title from './index'
 
 it('should render the Title', () => {
-    const wrapper = renderer.create(
+    const wrapper = shallow(
       <Title />
     );
-    expect(wrapper.toJSON()).toMatchSnapshot();
+    expect(wrapper).toMatchSnapshot();
 });
 
 it('should render the Subheader Title', () => {
-    const wrapper = renderer.create(
+    const wrapper = shallow(
       <Title subheader />
     );
-    expect(wrapper.toJSON()).toMatchSnapshot();
+    expect(wrapper).toMatchSnapshot();
 });

@@ -13,7 +13,7 @@ ShallowWrapper {
             "background": "url(colossus.jpg)",
           }
     }>
-    <Unknown
+    <PriceLabel
         price={22.43} />
 </div>,
   "nodes": Array [
@@ -24,7 +24,7 @@ ShallowWrapper {
                   "background": "url(colossus.jpg)",
                 }
       }>
-      <Unknown
+      <PriceLabel
             price={22.43} />
 </div>,
   ],
@@ -78,28 +78,13 @@ ShallowWrapper {
                         "location_details": "Genosha",
                         "name": "Diamond Select Marvel Select: Juggernaut Action Figure",
                         "price": 22.43,
-                        "recent_comments": Array [
-                          Object {
-                            "comment": "We will make an X-Man of you yet, Wade ",
-                            "id": 184543,
-                            "user": Object {
-                              "avatar": Object {
-                                "is_default": false,
-                                "small_url": "http://cdn2-www.comingsoon.net/assets/uploads/2015/12/deadpool-colossus-header.jpg",
-                              },
-                              "id": 13118,
-                              "name": "Piotr Rasputin",
-                              "nickname": "colossus",
-                              "share_url": "http://box.es/nixon",
-                            },
-                          },
-                        ],
                         "user": Object {
                           "avatar": Object {
                             "small_url": "http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg",
                           },
                           "name": "Charles Xavier",
                           "nickname": "xavier",
+                          "share_url": "http://box.es/charlesxavier",
                         },
                       }
         }
@@ -154,28 +139,13 @@ ShallowWrapper {
             "location_details": "Genosha",
             "name": "Diamond Select Marvel Select: Juggernaut Action Figure",
             "price": 22.43,
-            "recent_comments": Array [
-              Object {
-                "comment": "We will make an X-Man of you yet, Wade ",
-                "id": 184543,
-                "user": Object {
-                  "avatar": Object {
-                    "is_default": false,
-                    "small_url": "http://cdn2-www.comingsoon.net/assets/uploads/2015/12/deadpool-colossus-header.jpg",
-                  },
-                  "id": 13118,
-                  "name": "Piotr Rasputin",
-                  "nickname": "colossus",
-                  "share_url": "http://box.es/nixon",
-                },
-              },
-            ],
             "user": Object {
               "avatar": Object {
                 "small_url": "http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg",
               },
               "name": "Charles Xavier",
               "nickname": "xavier",
+              "share_url": "http://box.es/charlesxavier",
             },
           },
           "selectPicture": [Function],
@@ -208,7 +178,7 @@ ShallowWrapper {
                               "background": "url(colossus.jpg)",
                             }
           }>
-          <Unknown
+          <PriceLabel
                     price={22.43} />
 </div>,
         "_debugID": 2,
@@ -219,7 +189,7 @@ ShallowWrapper {
                               "background": "url(colossus.jpg)",
                             }
           }>
-          <Unknown
+          <PriceLabel
                     price={22.43} />
 </div>,
       },
@@ -277,28 +247,13 @@ ShallowWrapper {
             "location_details": "Genosha",
             "name": "Diamond Select Marvel Select: Juggernaut Action Figure",
             "price": 22.43,
-            "recent_comments": Array [
-              Object {
-                "comment": "We will make an X-Man of you yet, Wade ",
-                "id": 184543,
-                "user": Object {
-                  "avatar": Object {
-                    "is_default": false,
-                    "small_url": "http://cdn2-www.comingsoon.net/assets/uploads/2015/12/deadpool-colossus-header.jpg",
-                  },
-                  "id": 13118,
-                  "name": "Piotr Rasputin",
-                  "nickname": "colossus",
-                  "share_url": "http://box.es/nixon",
-                },
-              },
-            ],
             "user": Object {
               "avatar": Object {
                 "small_url": "http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg",
               },
               "name": "Charles Xavier",
               "nickname": "xavier",
+              "share_url": "http://box.es/charlesxavier",
             },
           }
     }

@@ -1,12 +1,14 @@
 import React from 'react'
 
+import { SliderArrows } from '../../atoms/'
 import { ItemView, ItemSidebar } from '../../organisms/'
 import './main-page.css'
 
 class MainPage extends React.Component {
   componentWillMount() {
-    const { fetchItem } = this.props
+    const { fetchComments, fetchItem } = this.props
     fetchItem()
+    fetchComments()
   }
 
   render() {
@@ -15,8 +17,8 @@ class MainPage extends React.Component {
       item.isFetching ?
         <div>Loading...</div> :
         <div className="main-page">
-          <div className="main-page__template">DEMO VERSION</div>
           <div className="main-page__content">
+            <SliderArrows {...this.props} />
             <ItemView />
             <ItemSidebar />
           </div>

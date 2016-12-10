@@ -6,9 +6,9 @@ ShallowWrapper {
     "findWhereUnwrapped": [Function],
   },
   "length": 1,
-  "node": <Connect(Component) />,
+  "node": <Connect(ItemMiniatures) />,
   "nodes": Array [
-    <Connect(Component) />,
+    <Connect(ItemMiniatures) />,
   ],
   "options": Object {},
   "renderer": ReactShallowRenderer {
@@ -25,7 +25,7 @@ ShallowWrapper {
                         "subscribe": [Function],
                       }
         }>
-        <Connect(Component) />
+        <Connect(ItemMiniatures) />
 </Provider>,
       "_debugID": 1,
       "_hostContainerInfo": null,
@@ -34,7 +34,7 @@ ShallowWrapper {
         "_reactInternalInstance": [Circular],
         "context": Object {},
         "props": Object {
-          "children": <Connect(Component) />,
+          "children": <Connect(ItemMiniatures) />,
           "store": Object {
             "default": [Function],
             "dispatch": [Function],
@@ -68,9 +68,9 @@ ShallowWrapper {
       "_pendingReplaceState": false,
       "_pendingStateQueue": null,
       "_renderedComponent": NoopInternalComponent {
-        "_currentElement": <Connect(Component) />,
+        "_currentElement": <Connect(ItemMiniatures) />,
         "_debugID": 2,
-        "_renderedOutput": <Connect(Component) />,
+        "_renderedOutput": <Connect(ItemMiniatures) />,
       },
       "_renderedNodeType": 1,
       "_rootNodeID": 0,
@@ -91,7 +91,7 @@ ShallowWrapper {
             "subscribe": [Function],
           }
     }>
-    <Connect(Component) />
+    <Connect(ItemMiniatures) />
 </Provider>,
 }
 `;

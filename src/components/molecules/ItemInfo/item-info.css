@@ -13,6 +13,7 @@
 
 .item-info__author__description {
   padding: 0px 0px 0px 10px;
+  margin-right: -17px;
 }
 
 .item-info__author__description__details {
@@ -31,6 +32,7 @@
   position: absolute;
   bottom: -1px;;
   background: white;
+  margin-right: 17px;
   right: 0;
 }
 

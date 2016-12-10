@@ -21,3 +21,13 @@ html, body, #root {
   align-items: center;
   justify-content: center;
 }
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}

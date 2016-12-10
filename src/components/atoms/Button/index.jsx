@@ -14,6 +14,7 @@ const Button = styled.button`
   display: flex;
   align-items: baseline;
   justify-content: center;
+  margin-right: ${props => props.follow ? '17px': '0'}
 `
 
 export default Button

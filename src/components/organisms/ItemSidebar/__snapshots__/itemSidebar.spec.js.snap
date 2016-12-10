@@ -8,16 +8,16 @@ ShallowWrapper {
   "length": 1,
   "node": <div
     className="item-sidebar">
-    <Connect(Component) />
-    <Connect(Component) />
-    <Unknown />
+    <Connect(ItemInfo) />
+    <Connect(Comments) />
+    <ItemAction />
 </div>,
   "nodes": Array [
     <div
       className="item-sidebar">
-      <Connect(Component) />
-      <Connect(Component) />
-      <Unknown />
+      <Connect(ItemInfo) />
+      <Connect(Comments) />
+      <ItemAction />
 </div>,
   ],
   "options": Object {},
@@ -26,7 +26,7 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <Unknown />,
+      "_currentElement": <ItemSidebar />,
       "_debugID": 1,
       "_hostContainerInfo": null,
       "_hostParent": null,
@@ -56,16 +56,16 @@ ShallowWrapper {
       "_renderedComponent": NoopInternalComponent {
         "_currentElement": <div
           className="item-sidebar">
-          <Connect(Component) />
-          <Connect(Component) />
-          <Unknown />
+          <Connect(ItemInfo) />
+          <Connect(Comments) />
+          <ItemAction />
 </div>,
         "_debugID": 2,
         "_renderedOutput": <div
           className="item-sidebar">
-          <Connect(Component) />
-          <Connect(Component) />
-          <Unknown />
+          <Connect(ItemInfo) />
+          <Connect(Comments) />
+          <ItemAction />
 </div>,
       },
       "_renderedNodeType": 0,
@@ -78,6 +78,6 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <Unknown />,
+  "unrendered": <ItemSidebar />,
 }
 `;

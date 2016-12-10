@@ -2,7 +2,7 @@ exports[`test should render the ItemAction 1`] = `
 <div
   className="item-action">
   <button
-    className="ksLTTq">
+    className="idWIlw">
     <i
       className="fa fa-comment" />
      Buy

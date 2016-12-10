@@ -1,6 +1,10 @@
 .item-slider {
-  flex: 1;
+  height: 100%;
+  width: 100%;
   background-size: cover !important;
   background-position: center !important;
-  position: relative;
+}
+
+.item-slider__picture {
+
 }

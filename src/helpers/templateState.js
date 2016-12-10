@@ -15,6 +15,7 @@ export default {
       "avatar": {
         "small_url": "http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg",
       },
+      "share_url": "http://box.es/charlesxavier"
     },
     "item_photos": [
       {
@@ -48,21 +49,55 @@ export default {
         "is_main": false
       }
     ],
-    "recent_comments": [
-      {
-        "id": 184543,
-        "comment": "We will make an X-Man of you yet, Wade ",
-        "user": {
-          "id": 13118,
-          "nickname": "colossus",
-          "name": "Piotr Rasputin",
-          "avatar": {
-            "small_url": "http://cdn2-www.comingsoon.net/assets/uploads/2015/12/deadpool-colossus-header.jpg",
-            "is_default": false
-          },
-          "share_url": "http://box.es/nixon"
-        }
-      },
-    ],
-  }
+  },
+  "comments": [
+    {
+      "id": 184543,
+      "comment": "We will make an X-Man of you yet, Wade",
+      "user": {
+        "nickname": "colossus",
+        "name": "Piotr Rasputin",
+        "avatar": {
+          "small_url": "http://cdn2-www.comingsoon.net/assets/uploads/2015/12/deadpool-colossus-header.jpg",
+        },
+        "share_url": "http://box.es/colossus"
+      }
+    },
+    {
+      "id": 184544,
+      "comment": "If I ever decide to become a crime-fighting shit swizzler, who rooms with a bunch of other little whiners at Neverland Mansion with some creepy, old, bald, Heaven's Gate-looking motherfucker... on that day, I'll send your shiny, happy ass a friend request!",
+      "user": {
+        "nickname": "deadpool",
+        "name": "Wade Wilson",
+        "avatar": {
+          "small_url": "http://nerdist.com/wp-content/uploads/2016/10/20161025_n_nerdistnews_deadpool2director_1x1.jpg",
+        },
+        "share_url": "http://box.es/deadpool"
+      }
+    },
+    {
+      "id": 184545,
+      "comment": "You guys going for a bite? Early bird special?",
+      "user": {
+        "nickname": "negasonic teenage warhead",
+        "name": "Ellie Phimister",
+        "avatar": {
+          "small_url": "https://s-media-cache-ak0.pinimg.com/736x/48/c9/8e/48c98e3d4dbc0fc782cb1e6877b59a33.jpg",
+        },
+        "share_url": "http://box.es/ntw"
+      }
+    },
+    {
+      "id": 184546,
+      "comment": "Love is blind, Wade",
+      "user": {
+        "nickname": "blind al",
+        "name": "Blind Al",
+        "avatar": {
+          "small_url": "http://starkindustries.ru/_dr/2/60896654.png",
+        },
+        "share_url": "http://box.es/blindal"
+      }
+    },
+  ],
 }

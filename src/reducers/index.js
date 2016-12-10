@@ -1,11 +1,13 @@
 import { combineReducers } from 'redux';
 
-import item from './apiData'
+import item from './getItem'
+import comments from './getComments'
 import selectedPicture from './selectedPicture'
 
 const rootReducer = combineReducers({
-  item,
   selectedPicture,
+  comments,
+  item,
 })
 
 export default rootReducer

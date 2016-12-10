@@ -5,7 +5,9 @@ import './item-info.css'
 
 const ItemInfo = ({item, onClick}) => (
     <div className="item-info">
-      <Title>{item.name}</Title>
+      <Title>
+        <span title={item.name}>{item.name}</span>
+      </Title>
       <div className="item-info__subtitle">
         <Title subheader>
           <i className="fa fa-map-marker" />{item.location_details}
@@ -15,11 +17,17 @@ const ItemInfo = ({item, onClick}) => (
         </Title>
       </div>
       <div className="item-info__author">
-        <Avatar img={item.user.avatar.small_url}/>
+        <a href={item.user.share_url}>
+          <Avatar img={item.user.avatar.small_url}/>
+        </a>
         <div className="item-info__author__description">
           <div className="item-info__author__description__details">
             <Button follow>Follow</Button>
-            <p className="item-info__author__description__details__name">{item.user.name}</p>
+            <p className="item-info__author__description__details__name">
+              <a href={item.user.share_url}>
+                {item.user.name}
+              </a>
+            </p>
             <p className="item-info__author__description__details__nickname">{item.user.nickname}</p>
           </div>
           {!item.completeInfo && <Description>

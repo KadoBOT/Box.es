@@ -1,4 +1,4 @@
-exports[`test should render the ItemMiniatures 1`] = `
+exports[`test should render the shallow 1`] = `
 ShallowWrapper {
   "complexSelector": ComplexSelector {
     "buildPredicate": [Function],
@@ -7,111 +7,25 @@ ShallowWrapper {
   },
   "length": 1,
   "node": <div
-    className="item-miniatures">
-    <Connect(Miniature)
-        photo={
-            Object {
-                "id": 473580,
-                "is_main": false,
-                "large": "https://images-na.ssl-images-amazon.com/images/I/719022GksTL._SL1500_.jpg",
-                "small": "https://images-na.ssl-images-amazon.com/images/I/719022GksTL._SL1500_.jpg",
-              }
-        }
-        selectedPicture="colossus.jpg" />
-    <Connect(Miniature)
-        photo={
-            Object {
-                "id": 473579,
-                "is_main": false,
-                "large": "http://www.angelfire.com/mech/jinsaotome/Blog/Juggyreview_001.JPG",
-                "small": "http://www.angelfire.com/mech/jinsaotome/Blog/Juggyreview_001.JPG",
-              }
-        }
-        selectedPicture="colossus.jpg" />
-    <Connect(Miniature)
-        photo={
-            Object {
-                "id": 473581,
-                "is_main": true,
-                "large": "https://actionfigurecanada.files.wordpress.com/2011/09/juggernaut-marvel-select-figure-2.jpg",
-                "small": "https://actionfigurecanada.files.wordpress.com/2011/09/juggernaut-marvel-select-figure-2.jpg",
-              }
-        }
-        selectedPicture="colossus.jpg" />
-    <Connect(Miniature)
-        photo={
-            Object {
-                "id": 473582,
-                "is_main": false,
-                "large": "http://4.bp.blogspot.com/-qNdk8wZtZSY/UgGmCHgBLJI/AAAAAAAB0pk/2qpwZTuNSls/s1600/52458-1.jpg",
-                "small": "http://4.bp.blogspot.com/-qNdk8wZtZSY/UgGmCHgBLJI/AAAAAAAB0pk/2qpwZTuNSls/s1600/52458-1.jpg",
-              }
-        }
-        selectedPicture="colossus.jpg" />
-    <Connect(Miniature)
-        photo={
-            Object {
-                "id": 473583,
-                "is_main": false,
-                "large": "https://s-media-cache-ak0.pinimg.com/originals/08/38/8f/08388f9c134afd90f567be95a4fe610b.jpg",
-                "small": "https://s-media-cache-ak0.pinimg.com/originals/08/38/8f/08388f9c134afd90f567be95a4fe610b.jpg",
-              }
-        }
-        selectedPicture="colossus.jpg" />
+    className="slider-arrows">
+    <i
+        className="fa fa-arrow-circle-left"
+        onClick={[Function]} />
+    <span />
+    <i
+        className="fa fa-arrow-circle-right"
+        onClick={[Function]} />
 </div>,
   "nodes": Array [
     <div
-      className="item-miniatures">
-      <Connect(Miniature)
-            photo={
-                  Object {
-                        "id": 473580,
-                        "is_main": false,
-                        "large": "https://images-na.ssl-images-amazon.com/images/I/719022GksTL._SL1500_.jpg",
-                        "small": "https://images-na.ssl-images-amazon.com/images/I/719022GksTL._SL1500_.jpg",
-                      }
-            }
-            selectedPicture="colossus.jpg" />
-      <Connect(Miniature)
-            photo={
-                  Object {
-                        "id": 473579,
-                        "is_main": false,
-                        "large": "http://www.angelfire.com/mech/jinsaotome/Blog/Juggyreview_001.JPG",
-                        "small": "http://www.angelfire.com/mech/jinsaotome/Blog/Juggyreview_001.JPG",
-                      }
-            }
-            selectedPicture="colossus.jpg" />
-      <Connect(Miniature)
-            photo={
-                  Object {
-                        "id": 473581,
-                        "is_main": true,
-                        "large": "https://actionfigurecanada.files.wordpress.com/2011/09/juggernaut-marvel-select-figure-2.jpg",
-                        "small": "https://actionfigurecanada.files.wordpress.com/2011/09/juggernaut-marvel-select-figure-2.jpg",
-                      }
-            }
-            selectedPicture="colossus.jpg" />
-      <Connect(Miniature)
-            photo={
-                  Object {
-                        "id": 473582,
-                        "is_main": false,
-                        "large": "http://4.bp.blogspot.com/-qNdk8wZtZSY/UgGmCHgBLJI/AAAAAAAB0pk/2qpwZTuNSls/s1600/52458-1.jpg",
-                        "small": "http://4.bp.blogspot.com/-qNdk8wZtZSY/UgGmCHgBLJI/AAAAAAAB0pk/2qpwZTuNSls/s1600/52458-1.jpg",
-                      }
-            }
-            selectedPicture="colossus.jpg" />
-      <Connect(Miniature)
-            photo={
-                  Object {
-                        "id": 473583,
-                        "is_main": false,
-                        "large": "https://s-media-cache-ak0.pinimg.com/originals/08/38/8f/08388f9c134afd90f567be95a4fe610b.jpg",
-                        "small": "https://s-media-cache-ak0.pinimg.com/originals/08/38/8f/08388f9c134afd90f567be95a4fe610b.jpg",
-                      }
-            }
-            selectedPicture="colossus.jpg" />
+      className="slider-arrows">
+      <i
+            className="fa fa-arrow-circle-left"
+            onClick={[Function]} />
+      <span />
+      <i
+            className="fa fa-arrow-circle-right"
+            onClick={[Function]} />
 </div>,
   ],
   "options": Object {},
@@ -120,7 +34,7 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <ItemMiniatures
+      "_currentElement": <SliderArrows
         item={
                 Object {
                         "completeInfo": false,
@@ -174,7 +88,8 @@ ShallowWrapper {
                         },
                       }
         }
-        selectedPicture="colossus.jpg" />,
+        selectPicture={[Function]}
+        selectedPicture={undefined} />,
       "_debugID": 1,
       "_hostContainerInfo": null,
       "_hostParent": null,
@@ -233,7 +148,8 @@ ShallowWrapper {
               "share_url": "http://box.es/charlesxavier",
             },
           },
-          "selectedPicture": "colossus.jpg",
+          "selectPicture": [Function],
+          "selectedPicture": undefined,
         },
         "refs": Object {},
         "state": null,
@@ -256,111 +172,25 @@ ShallowWrapper {
       "_pendingStateQueue": null,
       "_renderedComponent": NoopInternalComponent {
         "_currentElement": <div
-          className="item-miniatures">
-          <Connect(Miniature)
-                    photo={
-                              Object {
-                                        "id": 473580,
-                                        "is_main": false,
-                                        "large": "https://images-na.ssl-images-amazon.com/images/I/719022GksTL._SL1500_.jpg",
-                                        "small": "https://images-na.ssl-images-amazon.com/images/I/719022GksTL._SL1500_.jpg",
-                                      }
-                    }
-                    selectedPicture="colossus.jpg" />
-          <Connect(Miniature)
-                    photo={
-                              Object {
-                                        "id": 473579,
-                                        "is_main": false,
-                                        "large": "http://www.angelfire.com/mech/jinsaotome/Blog/Juggyreview_001.JPG",
-                                        "small": "http://www.angelfire.com/mech/jinsaotome/Blog/Juggyreview_001.JPG",
-                                      }
-                    }
-                    selectedPicture="colossus.jpg" />
-          <Connect(Miniature)
-                    photo={
-                              Object {
-                                        "id": 473581,
-                                        "is_main": true,
-                                        "large": "https://actionfigurecanada.files.wordpress.com/2011/09/juggernaut-marvel-select-figure-2.jpg",
-                                        "small": "https://actionfigurecanada.files.wordpress.com/2011/09/juggernaut-marvel-select-figure-2.jpg",
-                                      }
-                    }
-                    selectedPicture="colossus.jpg" />
-          <Connect(Miniature)
-                    photo={
-                              Object {
-                                        "id": 473582,
-                                        "is_main": false,
-                                        "large": "http://4.bp.blogspot.com/-qNdk8wZtZSY/UgGmCHgBLJI/AAAAAAAB0pk/2qpwZTuNSls/s1600/52458-1.jpg",
-                                        "small": "http://4.bp.blogspot.com/-qNdk8wZtZSY/UgGmCHgBLJI/AAAAAAAB0pk/2qpwZTuNSls/s1600/52458-1.jpg",
-                                      }
-                    }
-                    selectedPicture="colossus.jpg" />
-          <Connect(Miniature)
-                    photo={
-                              Object {
-                                        "id": 473583,
-                                        "is_main": false,
-                                        "large": "https://s-media-cache-ak0.pinimg.com/originals/08/38/8f/08388f9c134afd90f567be95a4fe610b.jpg",
-                                        "small": "https://s-media-cache-ak0.pinimg.com/originals/08/38/8f/08388f9c134afd90f567be95a4fe610b.jpg",
-                                      }
-                    }
-                    selectedPicture="colossus.jpg" />
+          className="slider-arrows">
+          <i
+                    className="fa fa-arrow-circle-left"
+                    onClick={[Function]} />
+          <span />
+          <i
+                    className="fa fa-arrow-circle-right"
+                    onClick={[Function]} />
 </div>,
         "_debugID": 2,
         "_renderedOutput": <div
-          className="item-miniatures">
-          <Connect(Miniature)
-                    photo={
-                              Object {
-                                        "id": 473580,
-                                        "is_main": false,
-                                        "large": "https://images-na.ssl-images-amazon.com/images/I/719022GksTL._SL1500_.jpg",
-                                        "small": "https://images-na.ssl-images-amazon.com/images/I/719022GksTL._SL1500_.jpg",
-                                      }
-                    }
-                    selectedPicture="colossus.jpg" />
-          <Connect(Miniature)
-                    photo={
-                              Object {
-                                        "id": 473579,
-                                        "is_main": false,
-                                        "large": "http://www.angelfire.com/mech/jinsaotome/Blog/Juggyreview_001.JPG",
-                                        "small": "http://www.angelfire.com/mech/jinsaotome/Blog/Juggyreview_001.JPG",
-                                      }
-                    }
-                    selectedPicture="colossus.jpg" />
-          <Connect(Miniature)
-                    photo={
-                              Object {
-                                        "id": 473581,
-                                        "is_main": true,
-                                        "large": "https://actionfigurecanada.files.wordpress.com/2011/09/juggernaut-marvel-select-figure-2.jpg",
-                                        "small": "https://actionfigurecanada.files.wordpress.com/2011/09/juggernaut-marvel-select-figure-2.jpg",
-                                      }
-                    }
-                    selectedPicture="colossus.jpg" />
-          <Connect(Miniature)
-                    photo={
-                              Object {
-                                        "id": 473582,
-                                        "is_main": false,
-                                        "large": "http://4.bp.blogspot.com/-qNdk8wZtZSY/UgGmCHgBLJI/AAAAAAAB0pk/2qpwZTuNSls/s1600/52458-1.jpg",
-                                        "small": "http://4.bp.blogspot.com/-qNdk8wZtZSY/UgGmCHgBLJI/AAAAAAAB0pk/2qpwZTuNSls/s1600/52458-1.jpg",
-                                      }
-                    }
-                    selectedPicture="colossus.jpg" />
-          <Connect(Miniature)
-                    photo={
-                              Object {
-                                        "id": 473583,
-                                        "is_main": false,
-                                        "large": "https://s-media-cache-ak0.pinimg.com/originals/08/38/8f/08388f9c134afd90f567be95a4fe610b.jpg",
-                                        "small": "https://s-media-cache-ak0.pinimg.com/originals/08/38/8f/08388f9c134afd90f567be95a4fe610b.jpg",
-                                      }
-                    }
-                    selectedPicture="colossus.jpg" />
+          className="slider-arrows">
+          <i
+                    className="fa fa-arrow-circle-left"
+                    onClick={[Function]} />
+          <span />
+          <i
+                    className="fa fa-arrow-circle-right"
+                    onClick={[Function]} />
 </div>,
       },
       "_renderedNodeType": 0,
@@ -373,7 +203,7 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <ItemMiniatures
+  "unrendered": <SliderArrows
     item={
         Object {
             "completeInfo": false,
@@ -427,6 +257,7 @@ ShallowWrapper {
             },
           }
     }
-    selectedPicture="colossus.jpg" />,
+    selectPicture={[Function]}
+    selectedPicture={undefined} />,
 }
 `;

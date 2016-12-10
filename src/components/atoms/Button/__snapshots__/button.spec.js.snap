@@ -1,9 +1,9 @@
 exports[`test should render the Button 1`] = `
 <button
-  className="ksLTTq" />
+  className="idWIlw" />
 `;
 
 exports[`test should render the Follow Button 1`] = `
 <button
-  className="hMPQfj" />
+  className="ffHmxF" />
 `;

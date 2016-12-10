@@ -17,8 +17,8 @@ const Miniature = ({onClick, photo, selectedPicture}) => {
 
 Miniature.propTypes = {
   onClick: PropTypes.func.isRequired,
-  photo: PropTypes.object.isRequired,
-  selectedPicture: PropTypes.string.isRequired,
+  photo: PropTypes.string.isRequired,
+  selectedPicture: PropTypes.string,
 }
 
 export default Miniature

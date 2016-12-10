@@ -9,7 +9,10 @@ ShallowWrapper {
   "node": <div
     className="item-info">
     <styled.div>
-        Diamond Select Marvel Select: Juggernaut Action Figure
+        <span
+            title="Diamond Select Marvel Select: Juggernaut Action Figure">
+            Diamond Select Marvel Select: Juggernaut Action Figure
+        </span>
     </styled.div>
     <div
         className="item-info__subtitle">
@@ -29,8 +32,11 @@ ShallowWrapper {
     </div>
     <div
         className="item-info__author">
-        <Unknown
-            img="http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg" />
+        <a
+            href="http://box.es/charlesxavier">
+            <Avatar
+                img="http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg" />
+        </a>
         <div
             className="item-info__author__description">
             <div
@@ -41,7 +47,10 @@ ShallowWrapper {
                 </styled.button>
                 <p
                     className="item-info__author__description__details__name">
-                    Charles Xavier
+                    <a
+                        href="http://box.es/charlesxavier">
+                        Charles Xavier
+                    </a>
                 </p>
                 <p
                     className="item-info__author__description__details__nickname">
@@ -67,7 +76,10 @@ ShallowWrapper {
     <div
       className="item-info">
       <styled.div>
-            Diamond Select Marvel Select: Juggernaut Action Figure
+            <span
+                  title="Diamond Select Marvel Select: Juggernaut Action Figure">
+                  Diamond Select Marvel Select: Juggernaut Action Figure
+            </span>
       </styled.div>
       <div
             className="item-info__subtitle">
@@ -87,8 +99,11 @@ ShallowWrapper {
       </div>
       <div
             className="item-info__author">
-            <Unknown
-                  img="http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg" />
+            <a
+                  href="http://box.es/charlesxavier">
+                  <Avatar
+                        img="http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg" />
+            </a>
             <div
                   className="item-info__author__description">
                   <div
@@ -99,7 +114,10 @@ ShallowWrapper {
                         </styled.button>
                         <p
                               className="item-info__author__description__details__name">
-                              Charles Xavier
+                              <a
+                                    href="http://box.es/charlesxavier">
+                                    Charles Xavier
+                              </a>
                         </p>
                         <p
                               className="item-info__author__description__details__nickname">
@@ -128,7 +146,7 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <Unknown
+      "_currentElement": <ItemInfo
         item={
                 Object {
                         "completeInfo": false,
@@ -172,28 +190,13 @@ ShallowWrapper {
                         "location_details": "Genosha",
                         "name": "Diamond Select Marvel Select: Juggernaut Action Figure",
                         "price": 22.43,
-                        "recent_comments": Array [
-                          Object {
-                            "comment": "We will make an X-Man of you yet, Wade ",
-                            "id": 184543,
-                            "user": Object {
-                              "avatar": Object {
-                                "is_default": false,
-                                "small_url": "http://cdn2-www.comingsoon.net/assets/uploads/2015/12/deadpool-colossus-header.jpg",
-                              },
-                              "id": 13118,
-                              "name": "Piotr Rasputin",
-                              "nickname": "colossus",
-                              "share_url": "http://box.es/nixon",
-                            },
-                          },
-                        ],
                         "user": Object {
                           "avatar": Object {
                             "small_url": "http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg",
                           },
                           "name": "Charles Xavier",
                           "nickname": "xavier",
+                          "share_url": "http://box.es/charlesxavier",
                         },
                       }
         }
@@ -247,28 +250,13 @@ ShallowWrapper {
             "location_details": "Genosha",
             "name": "Diamond Select Marvel Select: Juggernaut Action Figure",
             "price": 22.43,
-            "recent_comments": Array [
-              Object {
-                "comment": "We will make an X-Man of you yet, Wade ",
-                "id": 184543,
-                "user": Object {
-                  "avatar": Object {
-                    "is_default": false,
-                    "small_url": "http://cdn2-www.comingsoon.net/assets/uploads/2015/12/deadpool-colossus-header.jpg",
-                  },
-                  "id": 13118,
-                  "name": "Piotr Rasputin",
-                  "nickname": "colossus",
-                  "share_url": "http://box.es/nixon",
-                },
-              },
-            ],
             "user": Object {
               "avatar": Object {
                 "small_url": "http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg",
               },
               "name": "Charles Xavier",
               "nickname": "xavier",
+              "share_url": "http://box.es/charlesxavier",
             },
           },
           "onClick": [Function],
@@ -296,7 +284,10 @@ ShallowWrapper {
         "_currentElement": <div
           className="item-info">
           <styled.div>
-                    Diamond Select Marvel Select: Juggernaut Action Figure
+                    <span
+                              title="Diamond Select Marvel Select: Juggernaut Action Figure">
+                              Diamond Select Marvel Select: Juggernaut Action Figure
+                    </span>
           </styled.div>
           <div
                     className="item-info__subtitle">
@@ -316,8 +307,11 @@ ShallowWrapper {
           </div>
           <div
                     className="item-info__author">
-                    <Unknown
-                              img="http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg" />
+                    <a
+                              href="http://box.es/charlesxavier">
+                              <Avatar
+                                        img="http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg" />
+                    </a>
                     <div
                               className="item-info__author__description">
                               <div
@@ -328,7 +322,10 @@ ShallowWrapper {
                                         </styled.button>
                                         <p
                                                   className="item-info__author__description__details__name">
-                                                  Charles Xavier
+                                                  <a
+                                                            href="http://box.es/charlesxavier">
+                                                            Charles Xavier
+                                                  </a>
                                         </p>
                                         <p
                                                   className="item-info__author__description__details__nickname">
@@ -354,7 +351,10 @@ ShallowWrapper {
         "_renderedOutput": <div
           className="item-info">
           <styled.div>
-                    Diamond Select Marvel Select: Juggernaut Action Figure
+                    <span
+                              title="Diamond Select Marvel Select: Juggernaut Action Figure">
+                              Diamond Select Marvel Select: Juggernaut Action Figure
+                    </span>
           </styled.div>
           <div
                     className="item-info__subtitle">
@@ -374,8 +374,11 @@ ShallowWrapper {
           </div>
           <div
                     className="item-info__author">
-                    <Unknown
-                              img="http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg" />
+                    <a
+                              href="http://box.es/charlesxavier">
+                              <Avatar
+                                        img="http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg" />
+                    </a>
                     <div
                               className="item-info__author__description">
                               <div
@@ -386,7 +389,10 @@ ShallowWrapper {
                                         </styled.button>
                                         <p
                                                   className="item-info__author__description__details__name">
-                                                  Charles Xavier
+                                                  <a
+                                                            href="http://box.es/charlesxavier">
+                                                            Charles Xavier
+                                                  </a>
                                         </p>
                                         <p
                                                   className="item-info__author__description__details__nickname">
@@ -419,7 +425,7 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <Unknown
+  "unrendered": <ItemInfo
     item={
         Object {
             "completeInfo": false,
@@ -463,28 +469,13 @@ ShallowWrapper {
             "location_details": "Genosha",
             "name": "Diamond Select Marvel Select: Juggernaut Action Figure",
             "price": 22.43,
-            "recent_comments": Array [
-              Object {
-                "comment": "We will make an X-Man of you yet, Wade ",
-                "id": 184543,
-                "user": Object {
-                  "avatar": Object {
-                    "is_default": false,
-                    "small_url": "http://cdn2-www.comingsoon.net/assets/uploads/2015/12/deadpool-colossus-header.jpg",
-                  },
-                  "id": 13118,
-                  "name": "Piotr Rasputin",
-                  "nickname": "colossus",
-                  "share_url": "http://box.es/nixon",
-                },
-              },
-            ],
             "user": Object {
               "avatar": Object {
                 "small_url": "http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg",
               },
               "name": "Charles Xavier",
               "nickname": "xavier",
+              "share_url": "http://box.es/charlesxavier",
             },
           }
     }
@@ -503,7 +494,10 @@ ShallowWrapper {
   "node": <div
     className="item-info">
     <styled.div>
-        Diamond Select Marvel Select: Juggernaut Action Figure
+        <span
+            title="Diamond Select Marvel Select: Juggernaut Action Figure">
+            Diamond Select Marvel Select: Juggernaut Action Figure
+        </span>
     </styled.div>
     <div
         className="item-info__subtitle">
@@ -523,8 +517,11 @@ ShallowWrapper {
     </div>
     <div
         className="item-info__author">
-        <Unknown
-            img="http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg" />
+        <a
+            href="http://box.es/charlesxavier">
+            <Avatar
+                img="http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg" />
+        </a>
         <div
             className="item-info__author__description">
             <div
@@ -535,7 +532,10 @@ ShallowWrapper {
                 </styled.button>
                 <p
                     className="item-info__author__description__details__name">
-                    Charles Xavier
+                    <a
+                        href="http://box.es/charlesxavier">
+                        Charles Xavier
+                    </a>
                 </p>
                 <p
                     className="item-info__author__description__details__nickname">
@@ -553,7 +553,10 @@ ShallowWrapper {
     <div
       className="item-info">
       <styled.div>
-            Diamond Select Marvel Select: Juggernaut Action Figure
+            <span
+                  title="Diamond Select Marvel Select: Juggernaut Action Figure">
+                  Diamond Select Marvel Select: Juggernaut Action Figure
+            </span>
       </styled.div>
       <div
             className="item-info__subtitle">
@@ -573,8 +576,11 @@ ShallowWrapper {
       </div>
       <div
             className="item-info__author">
-            <Unknown
-                  img="http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg" />
+            <a
+                  href="http://box.es/charlesxavier">
+                  <Avatar
+                        img="http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg" />
+            </a>
             <div
                   className="item-info__author__description">
                   <div
@@ -585,7 +591,10 @@ ShallowWrapper {
                         </styled.button>
                         <p
                               className="item-info__author__description__details__name">
-                              Charles Xavier
+                              <a
+                                    href="http://box.es/charlesxavier">
+                                    Charles Xavier
+                              </a>
                         </p>
                         <p
                               className="item-info__author__description__details__nickname">
@@ -606,7 +615,7 @@ ShallowWrapper {
       "_calledComponentWillUnmount": false,
       "_compositeType": 2,
       "_context": Object {},
-      "_currentElement": <Unknown
+      "_currentElement": <ItemInfo
         item={
                 Object {
                         "completeInfo": true,
@@ -650,28 +659,13 @@ ShallowWrapper {
                         "location_details": "Genosha",
                         "name": "Diamond Select Marvel Select: Juggernaut Action Figure",
                         "price": 22.43,
-                        "recent_comments": Array [
-                          Object {
-                            "comment": "We will make an X-Man of you yet, Wade ",
-                            "id": 184543,
-                            "user": Object {
-                              "avatar": Object {
-                                "is_default": false,
-                                "small_url": "http://cdn2-www.comingsoon.net/assets/uploads/2015/12/deadpool-colossus-header.jpg",
-                              },
-                              "id": 13118,
-                              "name": "Piotr Rasputin",
-                              "nickname": "colossus",
-                              "share_url": "http://box.es/nixon",
-                            },
-                          },
-                        ],
                         "user": Object {
                           "avatar": Object {
                             "small_url": "http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg",
                           },
                           "name": "Charles Xavier",
                           "nickname": "xavier",
+                          "share_url": "http://box.es/charlesxavier",
                         },
                       }
         }
@@ -725,28 +719,13 @@ ShallowWrapper {
             "location_details": "Genosha",
             "name": "Diamond Select Marvel Select: Juggernaut Action Figure",
             "price": 22.43,
-            "recent_comments": Array [
-              Object {
-                "comment": "We will make an X-Man of you yet, Wade ",
-                "id": 184543,
-                "user": Object {
-                  "avatar": Object {
-                    "is_default": false,
-                    "small_url": "http://cdn2-www.comingsoon.net/assets/uploads/2015/12/deadpool-colossus-header.jpg",
-                  },
-                  "id": 13118,
-                  "name": "Piotr Rasputin",
-                  "nickname": "colossus",
-                  "share_url": "http://box.es/nixon",
-                },
-              },
-            ],
             "user": Object {
               "avatar": Object {
                 "small_url": "http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg",
               },
               "name": "Charles Xavier",
               "nickname": "xavier",
+              "share_url": "http://box.es/charlesxavier",
             },
           },
           "onClick": [Function],
@@ -774,7 +753,10 @@ ShallowWrapper {
         "_currentElement": <div
           className="item-info">
           <styled.div>
-                    Diamond Select Marvel Select: Juggernaut Action Figure
+                    <span
+                              title="Diamond Select Marvel Select: Juggernaut Action Figure">
+                              Diamond Select Marvel Select: Juggernaut Action Figure
+                    </span>
           </styled.div>
           <div
                     className="item-info__subtitle">
@@ -794,8 +776,11 @@ ShallowWrapper {
           </div>
           <div
                     className="item-info__author">
-                    <Unknown
-                              img="http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg" />
+                    <a
+                              href="http://box.es/charlesxavier">
+                              <Avatar
+                                        img="http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg" />
+                    </a>
                     <div
                               className="item-info__author__description">
                               <div
@@ -806,7 +791,10 @@ ShallowWrapper {
                                         </styled.button>
                                         <p
                                                   className="item-info__author__description__details__name">
-                                                  Charles Xavier
+                                                  <a
+                                                            href="http://box.es/charlesxavier">
+                                                            Charles Xavier
+                                                  </a>
                                         </p>
                                         <p
                                                   className="item-info__author__description__details__nickname">
@@ -824,7 +812,10 @@ ShallowWrapper {
         "_renderedOutput": <div
           className="item-info">
           <styled.div>
-                    Diamond Select Marvel Select: Juggernaut Action Figure
+                    <span
+                              title="Diamond Select Marvel Select: Juggernaut Action Figure">
+                              Diamond Select Marvel Select: Juggernaut Action Figure
+                    </span>
           </styled.div>
           <div
                     className="item-info__subtitle">
@@ -844,8 +835,11 @@ ShallowWrapper {
           </div>
           <div
                     className="item-info__author">
-                    <Unknown
-                              img="http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg" />
+                    <a
+                              href="http://box.es/charlesxavier">
+                              <Avatar
+                                        img="http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg" />
+                    </a>
                     <div
                               className="item-info__author__description">
                               <div
@@ -856,7 +850,10 @@ ShallowWrapper {
                                         </styled.button>
                                         <p
                                                   className="item-info__author__description__details__name">
-                                                  Charles Xavier
+                                                  <a
+                                                            href="http://box.es/charlesxavier">
+                                                            Charles Xavier
+                                                  </a>
                                         </p>
                                         <p
                                                   className="item-info__author__description__details__nickname">
@@ -881,7 +878,7 @@ ShallowWrapper {
     "render": [Function],
   },
   "root": [Circular],
-  "unrendered": <Unknown
+  "unrendered": <ItemInfo
     item={
         Object {
             "completeInfo": true,
@@ -925,28 +922,13 @@ ShallowWrapper {
             "location_details": "Genosha",
             "name": "Diamond Select Marvel Select: Juggernaut Action Figure",
             "price": 22.43,
-            "recent_comments": Array [
-              Object {
-                "comment": "We will make an X-Man of you yet, Wade ",
-                "id": 184543,
-                "user": Object {
-                  "avatar": Object {
-                    "is_default": false,
-                    "small_url": "http://cdn2-www.comingsoon.net/assets/uploads/2015/12/deadpool-colossus-header.jpg",
-                  },
-                  "id": 13118,
-                  "name": "Piotr Rasputin",
-                  "nickname": "colossus",
-                  "share_url": "http://box.es/nixon",
-                },
-              },
-            ],
             "user": Object {
               "avatar": Object {
                 "small_url": "http://static.comicvine.com/uploads/original/7/71941/1489898-charles_xavier.jpg",
               },
               "name": "Charles Xavier",
               "nickname": "xavier",
+              "share_url": "http://box.es/charlesxavier",
             },
           }
     }

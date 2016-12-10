@@ -1,7 +1,7 @@
 import React, {PropTypes} from 'react'
 
 import { isMainPicture } from '../../../helpers/_picture'
-import { PriceLabel, SliderArrows } from '../../atoms/'
+import { PriceLabel } from '../../atoms/'
 import './item-slider.css'
 
 class ItemSlider extends React.Component {
@@ -13,7 +13,6 @@ class ItemSlider extends React.Component {
     const {item, selectedPicture} = this.props
     return(
       <div className="item-slider" style={{background: `url(${selectedPicture})`}}>
-        {/* <SliderArrows /> */}
         <PriceLabel price={item.price} />
       </div>
     )
