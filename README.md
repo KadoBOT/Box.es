@@ -44,9 +44,7 @@ Coverage test: `npm run test -- --coverage`
 
 ---
 ### Todo
-- Carousel / Slider animation and transition
-- Functional JavaScript can be applied even better
-- Comments Pagination (Couldn't find any item with paginated comments to test)
+- Carousel / Slider animation and transition when changing pictures
+- Comments Pagination (Couldn't find any item with paginated comments to test, the mock works with a lot of comments though)
 - Reducer Async Test (CORS didn't allowed me to test the Async Calls)
 - Test Coverage is at 76%. Can be improved.
-- Make it responsive.
