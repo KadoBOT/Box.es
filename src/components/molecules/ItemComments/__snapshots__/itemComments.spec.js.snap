@@ -20,7 +20,7 @@ exports[`test should render the ItemComments 1`] = `
     <div
       className="item-comments__comment__text">
       <div
-        className="fTcZCa">
+        className="duKNDJ">
         <a
           href="http://box.es/colossus">
           <span
@@ -51,7 +51,7 @@ exports[`test should render the ItemComments 1`] = `
     <div
       className="item-comments__comment__text">
       <div
-        className="fTcZCa">
+        className="duKNDJ">
         <a
           href="http://box.es/deadpool">
           <span
@@ -82,7 +82,7 @@ exports[`test should render the ItemComments 1`] = `
     <div
       className="item-comments__comment__text">
       <div
-        className="fTcZCa">
+        className="duKNDJ">
         <a
           href="http://box.es/ntw">
           <span
@@ -113,7 +113,7 @@ exports[`test should render the ItemComments 1`] = `
     <div
       className="item-comments__comment__text">
       <div
-        className="fTcZCa">
+        className="duKNDJ">
         <a
           href="http://box.es/blindal">
           <span

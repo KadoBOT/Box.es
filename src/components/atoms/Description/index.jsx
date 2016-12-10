@@ -13,9 +13,6 @@ const Description = styled.div`
   line-height: 20px;
   position: relative;
   word-break: break-word;
-  -webkit-box-shadow: ${props => props.complete && 'inset 0px -30px 22px -17px rgba(0,0,0,0.12)'};
-  -moz-box-shadow: ${props => props.complete && 'inset 0px -30px 22px -17px rgba(0,0,0,0.12)'};
-  box-shadow: ${props => props.complete && 'inset 0px -30px 22px -17px rgba(0,0,0,0.12)'};
   padding-bottom: ${props => props.complete && '25px'};
 `
 
