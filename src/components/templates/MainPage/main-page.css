@@ -1,3 +1,15 @@
+@media screen and (max-width: 980px) {
+  .main-page {
+    flex-direction: column;
+    height: auto !important;
+  }
+  .main-page__content {
+    display: -webkit-box !important;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+}
+
 .main-page {
   display: flex;
   width: 80%;
@@ -5,13 +17,14 @@
 }
 
 .main-page__template {
-  position: absolute;
+  position: fixed;
   right: 10px;
   top: 10px;
   padding: 20px;
-  background: rgba(220, 71, 71, 0.43);
+  background: rgba(220, 71, 71, 0.73);
   color: white;
   border-radius: 2px;
+  z-index: 99
 }
 
 .main-page__content {

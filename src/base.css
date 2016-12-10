@@ -1,3 +1,10 @@
+@media screen and (max-width: 980px) {
+  #root {
+    margin: 40px 0px;
+    flex-direction: column;
+  }
+}
+
 * {
 margin:0;
 padding:0;

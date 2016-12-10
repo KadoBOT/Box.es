@@ -1,10 +1,12 @@
+@media screen and (max-width: 980px) {
+  .item-slider {
+    height: 65vw;
+  }
+}
+
 .item-slider {
   height: 100%;
   width: 100%;
   background-size: cover !important;
   background-position: center !important;
-}
-
-.item-slider__picture {
-
 }

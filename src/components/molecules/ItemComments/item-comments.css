@@ -1,7 +1,12 @@
+@media screen and (max-width: 980px) {
+  .item-comments {
+    height: 160px;
+  }
+}
+
 .item-comments {
   flex: 2;
   overflow: auto;
-  position: relative;
   margin-top: 20px;
 }
 
@@ -15,12 +20,12 @@
   margin-bottom: 10px;
   color: rgb(199, 199, 199);
   font-weight: 700;
-  position: fixed;
+  position: absolute;
   background: white;
   padding-bottom: 10px;
-  width: 28%;
   z-index: 99;
-  margin-top: -25px;
+  margin-top: -30px;
+  cursor: pointer;
 }
 
 .item-comments__comment__text {
