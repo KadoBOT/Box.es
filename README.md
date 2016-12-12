@@ -1,6 +1,6 @@
 # Boxes Frontend Challenge
 ---
-This repo is an code challenge I've made when applying for a front end position at [Boxes](https://box.es)
+This repo contains a code challenge I've made for [Boxes](https://box.es). The challenge was to recreate a picture of a listing item of the website, but with a different design. 
 ---
 ## Development
 This code challenge was made using create-react-app and Redux. BEM pattern was used on the CSS, and the components structure follows the Atomic Design Pattern. Also, some funcional programming using Ramda was used.
